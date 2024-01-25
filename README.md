@@ -1,56 +1,57 @@
-# README for OpenAI_Image_Data_Extraction
+# README - OpenAI Image Data Extraction
 
-This is a README file for the Python module `OpenAI_Image_Data_Extraction`. This module is used to extract data from images and PDFs using the *GPT-4 Vision* model of OpenAI. It converts PDFs to images, encodes them in base64, sends it to OpenAI for analysis and extracts the data.
+This module provides an efficient solution for extracting data from images and PDFs using the OpenAI API. It parses a set of images or a pdf file and returns a response based on the user prompt.
 
-## Setup and Installation
+## How to use the module
 
-To use this module, make sure you have these dependencies installed:
-* OpenAI `openai==0.6.13`
-* pdf2image `pdf2image==1.16.0`
-* dotenv `python-dotenv==0.19.1`
+Below are the steps to use the module:
 
-Install them using pip:
-```bash
-pip install openai==0.6.13 pdf2image==1.16.0 python-dotenv==0.19.1
-```
+1. Initialize the module as per your requirement
+2. Provide the path of the image or pdf file in `file_path`
+3. [Optional] For pdf files specify the `first_page` and `last_page` for parsing specific pages
+4. Provide the instruction in `system_prompt`
+5. Run `process_file` function to get the inference
 
-## Functionality
+## Features
 
-The main functions of the `OpenAI_Image_Data_Extraction` class are:
-- `check_file_path()`: Validates the file path of the image or PDF.
-- `convert_pdf_to_images(pdf_path, output_folder='temp_images')`: Converts PDF to images and stores them in the specified output folder.
-- `message_with_images(images: list)`: Prepares the message content with image data for the OpenAI API call.
-- `system_message()`: Returns the system message used for the OpenAI API request.
-- `run_openai(messages: list)`: Executes the OpenAI API call and returns the data extracted from the images.
-- `process_file()`: Orchestrates the entire process of extracting data from files.
+- PDF to image conversion: The module can convert each page of a PDF to an image which is then processed by the AI model.
+- System/user prompts: It allows the user to specify system and user prompts to guide the data extraction process.
+- Customizable options: You can customize several options, like the AI model and maximum tokens.
 
-To use the module, create an instance of the class `OpenAI_Image_Data_Extraction`, specify the file path, and call the `process_file()` method:
+## Example 
+
+This is a basic implementation of the module:
 
 ```python
-script = OpenAI_Image_Data_Extraction()
-script.file_path = "path_to_your_file.pdf"
-script.process_file()
+    if __name__ == "__main__":
+        script = OpenAI_Image_Data_Extraction()
+        script.file_path = r"OpenAI-Blog.pdf"
+        script.system_prompt = "Summarize the content for a markdown document"
+        script.process_file()
 ```
 
-You can also specify the range of pages you want to convert from the PDF:
+You can also set `first_page` and `last_page` to process specific pages:
 
 ```python
-script = OpenAI_Image_Data_Extraction()
-script.file_path = "path_to_your_file.pdf"
-script.first_page = 2
-script.last_page = 4
-script.process_file()
+    if __name__ == "__main__":
+        script = OpenAI_Image_Data_Extraction()
+        script.file_path = r"OpenAI-Blog.pdf"
+        script.first_page = 2
+        script.last_page = 4
+        script.system_prompt = "Summarize the content for a markdown document"
+        script.process_file()
 ```
 
-## Contributing
+## Getting Started
 
-For **suggestions**, **bug reports**, or **enhancements**, feel free to open an [issue](https://github.com/YourGitHub/OpenAI_Image_Data_Extraction/issues).
+Refer to the [OpenAI API documentation](https://beta.openai.com/docs/guides/chat/) for detailed steps on how to use and configure the OpenAI API.
 
-## License
+![OpenAI Logo](https://styles.redditmedia.com/t5_2nka6/styles/communityIcon_90r63d0n8uu41.png?width=256&s=e4b937d5f786fe18d25553881d0dc0f3)
 
-This project is licensed under the terms of the MIT license. For more details, see the [LICENSE](https://github.com/YourGitHub/OpenAI_Image_Data_Extraction/blob/main/LICENSE) file.
+The **system prompt** is used to guide the AI model's extraction process. For instance, to extract and summarize text, the system prompt would be something like "Summarize the content for a markdown document".
 
-![OpenAI logo](https://openai.com/static/images/openai/og-image.jpg)
+The **user prompt** typically includes more specific instructions and the data for the model to parse.
 
----
-*Made with* **Python** *and* **OpenAI**.
+## Contributing/Feedback
+
+We would love your contributions and feedback on this code. For any questions or issues, please open an issue on GitHub.
