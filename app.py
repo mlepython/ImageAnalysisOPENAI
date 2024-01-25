@@ -98,6 +98,6 @@ if __name__ == "__main__":
     script.file_path = r"OpenAI-Blog.pdf"
     # script.first_page = 2
     # script.last_page = 4
-    script.system_prompt = """Summarize the content
+    script.system_prompt = """Summarize the content for a markdown document
     """
     script.process_file()
