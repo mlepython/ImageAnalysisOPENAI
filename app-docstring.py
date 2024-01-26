@@ -9,15 +9,17 @@ import os
 load_dotenv()
 
 class OpenAI_Image_Data_Extraction(OpenAI):
-    '''
-    A class to extract image data using OpenAI's GPT-4 Vision API.
-
-    Parameters:
-    - model_name (str): The name of the model to use. Default is 'gpt-4-vision-preview'.
-    - max_tokens (int): The maximum number of tokens for the GPT-4 Vision API to use.
-    '''
-
     def __init__(self, model_name="gpt-4-vision-preview", max_tokens=1000):
+        '''
+        Initialize the OpenAI_Image_Data_Extraction class.
+
+        Parameters:
+        - model_name (str): The name of the OpenAI model to be used.
+        - max_tokens (int): The maximum number of tokens for model completion.
+
+        Returns:
+        None
+        '''
         super().__init__()
         self.file_path = ""
         self.api_key = os.getenv('OPENAI_API_KEY')
@@ -28,28 +30,28 @@ class OpenAI_Image_Data_Extraction(OpenAI):
         self.system_prompt = ""
         self.user_prompt = ""
 
-    def check_file_path(self):
+    def check_file_path(self) -> None:
         '''
-        Check if the file path provided is valid.
+        Check if the file path is provided.
 
         Raises:
-        - ValueError: If no file path was provided.
+        ValueError: If the file path is empty.
         '''
         if len(self.file_path) != 0:
             self.file_path = Path(self.file_path)
         else:
             raise ValueError('You must provide a path to your image file or pdf')
 
-    def convert_pdf_to_images(self, pdf_path, output_folder='temp_images'):
+    def convert_pdf_to_images(self, pdf_path:str, output_folder:str='temp_images') -> list:
         '''
-        Converts a provided PDF into images.
+        Convert a pdf to a list of images.
 
         Parameters:
-        - pdf_path (str): The path to the PDF file.
-        - output_folder (str): The folder to save the converted images in.
+        - pdf_path (str): The path to the pdf file.
+        - output_folder (str): The output folder for the converted images.
 
         Returns:
-        - pdf_image_path (list): A list of paths to the converted images.
+        list: A list of paths to the converted images.
         '''
         if not os.path.exists(output_folder):
             os.makedirs(output_folder)
@@ -64,7 +66,7 @@ class OpenAI_Image_Data_Extraction(OpenAI):
             print(f"Converting pages {self.first_page} to {self.last_page} to images")
             images = convert_from_path(pdf_path, first_page=self.first_page, last_page=self.last_page)
 
-        pdf_image_path = []  # Store paths of converted images
+        pdf_image_path = []
         for count, image in enumerate(images):  
             image_path = f"{output_folder}/page_{count + 1}.png"
             image.save(image_path, 'PNG')
@@ -72,15 +74,15 @@ class OpenAI_Image_Data_Extraction(OpenAI):
             pdf_image_path.append(image_path)
         return pdf_image_path
 
-    def message_with_images(self, images: list):
+    def message_with_images(self, images: list) -> dict:
         '''
-        Prepares a message with images for the GPT-4 Vision API.
+        Generate a message containing images.
 
         Parameters:
-        - images (list): A list of paths to the images to include in the message.
+        - images (list): A list of paths to the images.
 
         Returns:
-        - (dict): A dictionary containing the message with images.
+        dict: A message containing the images.
         '''
         role = "user"
         content = []
@@ -88,20 +90,17 @@ class OpenAI_Image_Data_Extraction(OpenAI):
             with open(image_path, "rb") as image_file:
                 base64_image = base64.b64encode(image_file.read()).decode('utf-8')
 
-                content.append({"type": "text", "text": self.user_prompt})  # Append any user text prompts to content
+                content.append({"type": "text", "text": self.user_prompt})
                 content.append({"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{base64_image}"}})
 
         return {"role": role, "content": content}
 
     def system_message(self) -> list:
         '''
-        Prepares a system message for the GPT-4 Vision API.
+        Generate a system message.
 
         Returns:
-        - messages (list): A list containing the system message.
-
-        Raises:
-        - ValueError: If the system prompt is empty.
+        list: A system message list.
         '''
         if len(self.system_prompt) != 0:
             messages =  [{"role": "system", "content": [
@@ -113,15 +112,15 @@ class OpenAI_Image_Data_Extraction(OpenAI):
             raise ValueError("System Prompt cannot be empty.")
         return messages
 
-    def run_openai(self, messages: list):
+    def run_openai(self, messages: list) -> str:
         '''
-        Runs the GPT-4 Vision API.
+        Run the OpenAI model.
 
         Parameters:
-        - messages (list): The messages to send to the GPT-4 Vision API.
+        - messages (list): A list of messages.
 
         Returns:
-        - (dict): The response from the GPT-4 Vision API.
+        str: The response from the model.
         '''
         response = self.chat.completions.create(
             model=self.model_name,
@@ -130,12 +129,12 @@ class OpenAI_Image_Data_Extraction(OpenAI):
         )
         return response.choices[0].message.content
 
-    def process_file(self):
+    def process_file(self) -> str:
         '''
-        Processes the file, converts it to images, and runs the GPT-4 Vision API.
+        Process the file and run the OpenAI model.
 
         Returns:
-        - (dict): The result from the GPT-4 Vision API.
+        str: The processed result from the OpenAI model.
         '''
         self.check_file_path()
 
@@ -154,5 +153,8 @@ class OpenAI_Image_Data_Extraction(OpenAI):
 if __name__ == "__main__":
     script = OpenAI_Image_Data_Extraction()
     script.file_path = r"OpenAI-Blog.pdf"
-    script.system_prompt = """Summarize the content for a markdown document"""
-    script.process_file()  # Run the process on the provided file
+    # script.first_page = 2
+    # script.last_page = 4
+    script.system_prompt = """Summarize the content for a markdown document
+    """
+    script.process_file()

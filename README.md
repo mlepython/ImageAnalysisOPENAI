@@ -1,57 +1,76 @@
-# README - OpenAI Image Data Extraction
+# OpenAI Image Data Extraction
 
-This module provides an efficient solution for extracting data from images and PDFs using the OpenAI API. It parses a set of images or a pdf file and returns a response based on the user prompt.
+The `OpenAI Image Data Extraction` class in this code allows you to process images and PDFs using OpenAI's GPT-4 vision model to extract information and generate a summary. It provides functions to convert a PDF to images, generate a message containing the images, create a system message, and run the OpenAI model with the provided messages.
 
-## How to use the module
+## Prerequisites
 
-Below are the steps to use the module:
+Before using the code, ensure you have the following dependencies installed:
+- `openai` library
+- `pdf2image` library
+- `pathlib` library
+- `dotenv` library
+- OpenAI API key stored in a `.env` file
 
-1. Initialize the module as per your requirement
-2. Provide the path of the image or pdf file in `file_path`
-3. [Optional] For pdf files specify the `first_page` and `last_page` for parsing specific pages
-4. Provide the instruction in `system_prompt`
-5. Run `process_file` function to get the inference
+## Usage
 
-## Features
+1. First, create a `.env` file in the same directory as the code and add your OpenAI API key in the following format:
+   ```
+   OPENAI_API_KEY=your_api_key_here
+   ```
 
-- PDF to image conversion: The module can convert each page of a PDF to an image which is then processed by the AI model.
-- System/user prompts: It allows the user to specify system and user prompts to guide the data extraction process.
-- Customizable options: You can customize several options, like the AI model and maximum tokens.
+2. Initialize the `OpenAI_Image_Data_Extraction` class with optional parameters for model name and max tokens.
 
-## Example 
+   ```python
+   script = OpenAI_Image_Data_Extraction(model_name="gpt-4-vision-preview", max_tokens=1000)
+   ```
 
-This is a basic implementation of the module:
+3. Set the file path for the image or PDF to be processed.
+
+   ```python
+   script.file_path = "path_to_your_file.pdf"  # Replace with the actual file path
+   ```
+
+4. Optionally, specify the first and last page if processing a specific range of pages from a PDF.
+
+   ```python
+   script.first_page = 2
+   script.last_page = 4
+   ```
+
+5. Set the system prompt for the OpenAI model.
+
+   ```python
+   script.system_prompt = "Summarize the content for a markdown document"
+   ```
+
+6. Run the processing and OpenAI model by calling the `process_file` method.
+
+   ```python
+   script.process_file()
+   ```
+
+## Example
+
+Here's an example of using the `OpenAI_Image_Data_Extraction` class to process a PDF file and extract information:
 
 ```python
-    if __name__ == "__main__":
-        script = OpenAI_Image_Data_Extraction()
-        script.file_path = r"OpenAI-Blog.pdf"
-        script.system_prompt = "Summarize the content for a markdown document"
-        script.process_file()
+script = OpenAI_Image_Data_Extraction(model_name="gpt-4-vision-preview", max_tokens=1000)
+script.file_path = "sample_document.pdf"
+script.system_prompt = "Summarize the content for a markdown document"
+script.process_file()
 ```
 
-You can also set `first_page` and `last_page` to process specific pages:
+## Important Notes
 
-```python
-    if __name__ == "__main__":
-        script = OpenAI_Image_Data_Extraction()
-        script.file_path = r"OpenAI-Blog.pdf"
-        script.first_page = 2
-        script.last_page = 4
-        script.system_prompt = "Summarize the content for a markdown document"
-        script.process_file()
-```
+- Ensure that you have the correct OpenAI API key set in the `.env` file.
+- The code uses base64 encoding to include images in the messages sent to the OpenAI model.
+- The `convert_pdf_to_images` function creates temporary image files when processing PDFs.
+- The `run_openai` method interacts with the OpenAI GPT-4 vision model to generate the response.
 
-## Getting Started
+## Future Improvements
 
-Refer to the [OpenAI API documentation](https://beta.openai.com/docs/guides/chat/) for detailed steps on how to use and configure the OpenAI API.
+- Error handling for different file formats and edge cases.
+- Support for additional OpenAI models and parameters.
+- Performance optimizations when handling large PDFs or images.
 
-![OpenAI Logo](https://styles.redditmedia.com/t5_2nka6/styles/communityIcon_90r63d0n8uu41.png?width=256&s=e4b937d5f786fe18d25553881d0dc0f3)
-
-The **system prompt** is used to guide the AI model's extraction process. For instance, to extract and summarize text, the system prompt would be something like "Summarize the content for a markdown document".
-
-The **user prompt** typically includes more specific instructions and the data for the model to parse.
-
-## Contributing/Feedback
-
-We would love your contributions and feedback on this code. For any questions or issues, please open an issue on GitHub.
+Feel free to customize the code and contribute to the class for further enhancements. If you encounter any issues, please consider opening an GitHub issue or pull request.
