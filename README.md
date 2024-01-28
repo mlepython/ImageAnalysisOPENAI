@@ -1,76 +1,67 @@
 # OpenAI Image Data Extraction
 
-The `OpenAI Image Data Extraction` class in this code allows you to process images and PDFs using OpenAI's GPT-4 vision model to extract information and generate a summary. It provides functions to convert a PDF to images, generate a message containing the images, create a system message, and run the OpenAI model with the provided messages.
+## Overview
 
-## Prerequisites
+The OpenAI Image Data Extraction script is designed to process images or PDF files, converting the visual content into text-based summaries using OpenAI's GPT-4 Vision API. The code can handle both individual images and multiple pages of a PDF, converting each page into an image for analysis.
 
-Before using the code, ensure you have the following dependencies installed:
-- `openai` library
-- `pdf2image` library
-- `pathlib` library
-- `dotenv` library
-- OpenAI API key stored in a `.env` file
+## Dependencies
+
+To run this script, you will need the following dependencies installed:
+
+- `openai` - The OpenAI Python client library.
+- `pdf2image` - A library for converting PDF files to images.
+- `python-dotenv` - To load environment variables from the `.env` file.
+- `base64` - A Python module for encoding binary data to ASCII characters.
+- `os` and `pathlib` - Standard libraries for file and path operations in Python.
+
+You must also have an active OpenAI account with API key access.
+
+## Environment Setup
+
+Before running the script, make sure to set up the environment variables:
+
+1. Create a `.env` file in the script's directory.
+2. Add your OpenAI API key to the `.env` file:
+   ```
+   OPENAI_API_KEY='your_api_key_here'
+   ```
 
 ## Usage
 
-1. First, create a `.env` file in the same directory as the code and add your OpenAI API key in the following format:
-   ```
-   OPENAI_API_KEY=your_api_key_here
-   ```
+To use the script, follow these steps:
 
-2. Initialize the `OpenAI_Image_Data_Extraction` class with optional parameters for model name and max tokens.
+1. Initialize the `OpenAI_Image_Data_Extraction` class.
+2. Set the `file_path` with the path to your image or PDF file.
+3. (Optional) Set `first_page` and `last_page` if you want to process a subset of pages from a PDF.
+4. Set the `system_prompt` with instructions for the OpenAI model.
+5. Call the `process_file()` method.
 
-   ```python
-   script = OpenAI_Image_Data_Extraction(model_name="gpt-4-vision-preview", max_tokens=1000)
-   ```
-
-3. Set the file path for the image or PDF to be processed.
-
-   ```python
-   script.file_path = "path_to_your_file.pdf"  # Replace with the actual file path
-   ```
-
-4. Optionally, specify the first and last page if processing a specific range of pages from a PDF.
-
-   ```python
-   script.first_page = 2
-   script.last_page = 4
-   ```
-
-5. Set the system prompt for the OpenAI model.
-
-   ```python
-   script.system_prompt = "Summarize the content for a markdown document"
-   ```
-
-6. Run the processing and OpenAI model by calling the `process_file` method.
-
-   ```python
-   script.process_file()
-   ```
-
-## Example
-
-Here's an example of using the `OpenAI_Image_Data_Extraction` class to process a PDF file and extract information:
+### Example
 
 ```python
-script = OpenAI_Image_Data_Extraction(model_name="gpt-4-vision-preview", max_tokens=1000)
-script.file_path = "sample_document.pdf"
-script.system_prompt = "Summarize the content for a markdown document"
-script.process_file()
+script = OpenAI_Image_Data_Extraction()
+script.file_path = "path_to_your_file.pdf"
+script.system_prompt = "System prompt that describes what you want to extract or process"
+result = script.process_file()
 ```
 
-## Important Notes
+## Configuration Options
 
-- Ensure that you have the correct OpenAI API key set in the `.env` file.
-- The code uses base64 encoding to include images in the messages sent to the OpenAI model.
-- The `convert_pdf_to_images` function creates temporary image files when processing PDFs.
-- The `run_openai` method interacts with the OpenAI GPT-4 vision model to generate the response.
+- `model_name`: Set the model to be used for processing images. Default is `gpt-4-vision-preview`.
+- `max_tokens`: Maximum number of tokens to generate in the output.
 
-## Future Improvements
+## Design Decisions
 
-- Error handling for different file formats and edge cases.
-- Support for additional OpenAI models and parameters.
-- Performance optimizations when handling large PDFs or images.
+- The class inherits from OpenAI and adds functionality specific to handling images and PDF conversions.
+- PDF files are converted to images first to accommodate the OpenAI API's image processing capabilities.
+- The code follows a pattern of preparing the input as a sequence of messages before sending it to the OpenAI API.
 
-Feel free to customize the code and contribute to the class for further enhancements. If you encounter any issues, please consider opening an GitHub issue or pull request.
+## Limitations and Future Improvements
+
+- The script currently assumes all images in a PDF need to be processed. Fine-grained control over which pages to convert would be a welcome addition.
+- Adding support for different image formats or specific image processing requirements can increase the utility of the script.
+- Error handling and logging can be improved to handle various edge cases more gracefully.
+
+## Contributing
+
+If you are interested in contributing to the development of this script, please ensure you follow the best practices for Python coding and adhere to the existing design patterns within the codebase.
