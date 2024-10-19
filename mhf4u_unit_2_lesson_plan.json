@@ -1,0 +1,165 @@
+[
+    [
+        {
+            "course_code": "MHF4U",
+            "overall": [
+                "C2. identify and describe some key features of the graphs of rational functions, and represent rational functions graphically",
+                "C3. solve problems involving polynomial and simple rational equations graphically and algebraically",
+                "C4. demonstrate an understanding of solving; polynomial and simple rational inequalities."
+            ],
+            "specific": [
+                "4.1 explain, for polynomial and simple rational functions, the difference between the solution to an equation in one variable and the solution to an inequality in one variable, and demonstrate that given solutions satisfy an inequality",
+                "3.6 solve simple rational equations in one variable algebraically, and verify solutions using technology (e.g., using computer algebra systems to determine the roots; using graphing technology to determine the x-intercepts of the graph of the corresponding rational function)",
+                "3.7 solve problems involving applications of polynomial and simple rational functions and equations"
+            ],
+            "unit_name": "2 - Rational Functions",
+            "lesson_topic": "Rational Equations and Inequalities",
+            "learning_goal": "Students will: Learn how to solve rational equations and inequalities",
+            "success_criteria": [
+                "Knowledge - I can recall how to factor and solve a polynomial equation",
+                "Communication - I can create an equivalent rational inequality",
+                "Inquiry - I can use a graph or interval table to solve an inequality"
+            ],
+            "introduction": "Give handout (or display PPT) of different rational functions and have them simply each function and state the restrictions on the domain need to understand that dvision by 0 is undefined.",
+            "development": "Work through an example to solve a simple rational inequality. First try algebraically then graphically. Have them try a quadratic/quadratic function and solve them graphically. Need to go through some application questions. Questions 1,3,and10 from textbook page 190. Have them try 6,7,and14. Then take up together.",
+            "consolidation": "Give out Achievement Check (AFL) - choose 4 to 5 students and have them explain how to solve question 1 (Conversation)",
+            "extension": "Pg 183 Q 2,4,5,9,10",
+            "materials": "Textbook, projector, achievement check, student notes",
+            "strategies/activities": [
+                "Demonstration",
+                "Experiments",
+                "Questioning (oral / written)",
+                "Practice and Drill",
+                "Homework",
+                "Collaborative Learning"
+            ]
+        }
+    ],
+    [
+        {
+            "course_code": "MHF4U",
+            "overall": [
+                "C2. identify and describe some key features of the graphs of rational functions, and represent rational functions graphically",
+                "C3. solve problems involving polynomial and simple rational equations graphically and algebraically",
+                "C4. demonstrate an understanding of solving polynomial and simple rational inequalities"
+            ],
+            "specific": [
+                "2.1 determine, through investigation with and without technology, key features (i.e., vertical and horizontal asymptotes, domain and range, intercepts, positive/negative intervals, increasing/decreasing intervals) of the graphs of rational functions that are the reciprocals of linear and quadratic functions, and make connections between the algebraic and graphical representations of these rational functions [e.g., make connections between f(x) = 1/(x-2) and its graph by using graphing technology and by reasoning that there are vertical asymptotes at x = 2 and x = -2 and a horizontal asymptote at y = 0 and that the function maintains the same sign as f(x) = x(2) - 4]"
+            ],
+            "unit_name": "2 - Rational Functions",
+            "lesson_topic": "Introduction to Rational Functions",
+            "learning_goal": "Students will: learn to identify asymptotes and graph reciprocal functions",
+            "success_criteria": "Knowledge \u2013 I can state the restrictions on the domain of a rational function and identify the vertical asymptote Inquiry \u2013 I can state the end behaviour and behaviour near a vertical asymptote Communication \u2013 I can sketch a graph neatly showing all important characteristics",
+            "introduction": "Give handout (or display PPT) of different rational functions and have them simply each function and state the restrictions on the domain need to understand that division by 0 is undefined.",
+            "development": "Part 1 (15 mins) Define rational function and reciprocal function (some students can easily forget reciprocal). Need to discuss end behaviour with an example. Using a table of values we can compare the end behaviour for a polynomial and its reciprocal form. Part 2 (30 mins) Go through example 1 and empathize the need to describe the behaviour near VA. Using a table of values to show what happens as you move closer to a VA from the left and right sides. Go through example 2. Then have them try example 3 by themselves Part 3 (15 mins) Go through example 4 about reciprocals of quadratics. Then have them try the next one by themselves.",
+            "consolidation": "Have them try remaining example on their own. Circulate the room to check for understanding. Or have the student show their work up to their camera in zoom.",
+            "extension": "Textbook page 154, Q3-5 or 7-9",
+            "materials": "Textbook, projector, achievement check, student notes",
+            "strategies/activities": [
+                "Demonstration",
+                "Exit Tickets",
+                "Self-Assessment",
+                "Graphing",
+                "Practice and Drill (oral / written)",
+                "Media Presentation/PowerPoint"
+            ]
+        }
+    ],
+    [
+        {
+            "course_code": "MHF4U",
+            "overall": [
+                "C2. identify and describe some key features of the graphs of rational functions, and represent rational functions graphically",
+                "C3. solve problems involving polynomial and simple rational equations graphically and algebraically",
+                "C4. demonstrate an understanding of solving polynomial and simple rational inequalities"
+            ],
+            "specific": [
+                "2.2 determine, through investigation with and without technology, key features (i.e., vertical and horizontal asymptotes, domain and range, intercepts, positive/negative intervals, increasing/decreasing intervals) of the graphs of rational functions that have linear expressions in the numerator and denominator"
+            ],
+            "unit_name": "2 - Rational Functions",
+            "lesson_topic": "Linear/Linear Rational Functions",
+            "learning_goal": "Learn to graph linear/linear and linear/quadratic rational functions and find horizontal asymptotes with holes.",
+            "success_criteria": "- I can state the restrictions on the domain of a rational function and identify the vertical and horizontal asymptote\n- I can state the end behaviour and behaviour near a vertical asymptote\n- I can identify the location of a hole.",
+            "introduction": "Option 1: Give them several questions on reciprocal quadratic and linear functions to sketch on the whiteboards.\nExtra: give them more questions on reciprocal polynomials for sketching practice or ask them to come up with their own function then graph\nDuring this process circulate the room to check for understanding\n\nOption 2: Provide the students the behaviours of a reciprocal function and then have them try to sketch a graph and provide an equation",
+            "development": "Keywords: asymptotes \nPart 1\nGive an example of a linear/linear rational function. Have them find the VA, x and y intercepts. Go through process to find HA by looking at the leading coefficient of numerator and denominator. Need to describe end behavior as x -> infinity",
+            "consolidation": "Give students Achievement Check (AFL) \u2013 choose 4 to 5 students and have them explain how to solve question 1 (Conversation)",
+            "extension": "Page 154 Q3,5,7\u20139\nPage 164 Q1,3,5,8",
+            "materials": "Textbook, projector, achievement check, student notes",
+            "strategies/activities": [
+                "Demonstration",
+                "Exit Tickets",
+                "Questioning (oral / written)",
+                "Practice and Drill",
+                "Media Presentation/PowerPoint",
+                "Homework"
+            ]
+        }
+    ],
+    [
+        {
+            "course_code": "MHF4U",
+            "overall": [
+                "C2. identify and describe some key features of the graphs of rational functions, and represent rational functions graphically;",
+                "C3. solve problems involving polynomial and simple rational equations graphically and algebraically;",
+                "C4. demonstrate an understanding of solving polynomial and simple rational inequalities."
+            ],
+            "specific": [
+                "2.2 determine, through investigation with and without technology, key features (i.e., vertical and horizontal asymptotes, domain and range, intercepts, positive/negative intervals, increasing/decreasing intervals) of the graphs of rational functions that have linear expressions in the numerator and denominator"
+            ],
+            "unit_name": "2 - Rational Functions",
+            "lesson_topic": "Rational Functions with Holes",
+            "learning_goal": "Students will:\nLearn to graph rationals that have holes and how to determine an equation of a rational given its graph",
+            "success_criteria": "- Knowledge\n  - I can determine if a given rational has a hole\n- Inquiry\n  - I can determine the location of a hole\n  - I can graph a rational with a hole\n- Application\n  - I can determine the equation of a given graph",
+            "introduction": "Option 1:\nGive them several questions on reciprocal quadratic and linear functions to sketch on the whiteboards.\nExtra: give them more questions on reciprocal polynomials for sketching practice or ask them to come up with their own function then graph\nDuring this process circulate the room to check for understanding\n\nOption 2:\nProvide the students the behaviours of a reciprocal function and then have them try to sketch a graph and provide an equation\n",
+            "development": "Part 1\nKeywords: vertical/horizontal asymptotes, end behaviour\n\nPart 1\nKeywords: asymptotes\nGive an example of a linear/linear rational function. Have them find the VA, x and y intercepts. Go through process to find HA by looking at the leading coefficient of numerator and denominator. Need to describe end behavior as x -> infinity\n\nFor example 1 have them identify the asymptotes. No graphing\n\nPart 2\nGo over example on how to sketch a linear/quadratic and quadratic/quadratic ration function.\nHave them try an example on their own. Ask some students to present their solutions (Observation)\n\nPart 3\nIntroduce the concept of a hole with an example when factors totally cancel out in function. Need to emphasize the need to find a hole first before looking for a VA.\n",
+            "consolidation": "give out Achievement Check (AFL) \u2013 choose 4 to 5 students and have them explain how to solve question 1 (Conversation)\n",
+            "extension": "Page 154 Q3,5,7-9\nPage 164 Q1,5,8",
+            "materials": "Textbook, projector, achievement check, student notes",
+            "strategies/activities": [
+                "Demonstration",
+                "Experiments",
+                "Exit Tickets",
+                "Graphs/Graphing",
+                "Questioning (oral / written)",
+                "Practice and Drill",
+                "Handout",
+                "Homework",
+                "Media Presentation/PowerPoint"
+            ]
+        }
+    ],
+    [
+        {
+            "course_code": "MHF4U",
+            "overall": [
+                "C2. identify and describe some key features of the graphs of rational functions, and represent rational functions graphically",
+                "C3. solve problems involving polynomial and simple rational equations graphically and algebraically",
+                "C4. demonstrate an understanding of solving polynomial and simple rational inequalities"
+            ],
+            "specific": [
+                "2.1 determine, through investigation with and without technology, key features (i.e., vertical and horizontal asymptotes, domain and range, intercepts, positive/negative intervals, increasing/decreasing intervals) of the graphs of rational functions that are the reciprocal of linear and quadratic functions, and make connections between the algebraic and graphical representations of these rational functions [e.g., make connections between f(x) = 1/(x+2) - 4 and its graph by using graphing technology and by reasoning that there are vertical asymptotes at x = 2 and x = -2 and a horizontal asymptote at y = 0 and that the function maintains the same sign as f(x) = x(2) - 4]"
+            ],
+            "unit_name": "2 - Rational Functions",
+            "lesson_topic": "Oblique Asymptotes",
+            "learning_goal": "Students will identify an oblique asymptote and make a graph, and determine an equation of a rational function given its graph.",
+            "success_criteria": [
+                "- I can determine the location of an oblique asymptote",
+                "- I can sketch a graph neatly showing the oblique asymptotes",
+                "- I can sketch the equation of a rational function given its graph."
+            ],
+            "introduction": "Given an x and y intercept, VA, and HA, have them write a rational function",
+            "development": "Need to clarify HA definition.\nIf a functions degree of numerator is greater than the degree of the denominator then the function will have a slant asymptote. Function will not have a HA.\nGive a quadratic/linear function and use long division to find the equation of the SA. Have them find the VA and intercepts. Using the information sketch the functions. We need to pick some extra points for sketching.\nGive them a similar example to try\n\nA function has a hole if a factor cancels out from the numerator and denominator. Give a simple example. Determine the location of the hole first then simplify the equation. Graph the linear function.\n\nGive a harder example of a cubic/quadratic function.",
+            "consolidation": "Have them try remaining example on their own. Circulate the room to check for understanding. Or have the student show their work up to their camera in zoom.",
+            "extension": "Page 154 Q3,5,7-9\nPage 164 Q1,5,8",
+            "materials": "Textbook, projector, achievement check, student notes",
+            "strategies/activities": [
+                "Demonstration",
+                "Experiments",
+                "Practice and Drill",
+                "Independent Study",
+                "Homework",
+                "Collaborative Learning"
+            ]
+        }
+    ]
+]

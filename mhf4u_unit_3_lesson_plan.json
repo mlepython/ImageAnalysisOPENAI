@@ -1,0 +1,254 @@
+[
+    [
+        {
+            "course_code": "MHF4U",
+            "overall": [
+                "B1. demonstrate an understanding of the meaning and application of radian measure;",
+                "B2. make connections between trigonometric ratios and the graphical and algebraic representations of the corresponding trigonometric functions and between trigonometric functions and their reciprocals, and use these connections to solve problems;"
+            ],
+            "specific": [
+                "B1.2 represent radian measure in terms of [pi] (e.g., [pi]/3 radians, 2[pi] radians) and as a rational number",
+                "B1.3 determine, with technology, the primary trigonometric ratios and the reciprocal trigonometric ratios of angles expressed in radian measure",
+                "B1.4 determine, without technology, the exact values of the primary trigonometric ratios and the reciprocal trigonometric ratios for the special angles 0, [pi]/6, [pi]/4, [pi]/3, [pi]/2, and their multiples less than or equal to 2[pi]"
+            ],
+            "unit_name": "Trigonometry",
+            "lesson_topic": "Trig Ratios and Special Angles",
+            "learning_goal": "We are learning... How to use a unit circle to determine the exact value of a tri ratio with special triangles in radians",
+            "success_criteria": "- I can recall the special triangle in radians\n- I can determine the quadrant of the angle and determine the reference angle\n- I can use the reference angle with special triangle to determine the trig ratio\n- I can solve a trig expression using the exact trig ratios to get an exact answer\n- I can apply the special triangles in radians to solve problems",
+            "introduction": "Given a table of special angles in degrees have them determine in radians and have them find the exact values for sin cos and tan",
+            "development": "Introduce a unit circle and define terminal arm. Rewrite the special triangles for a radius of one and in radian. Remind them that when evaluating the trig ratios calculator needs to be in radians.\n\nExample of find all trig ratios for 3pi/4 using a unit circle.\n\nGive two additional example for them to try. Circulate the room as they work and check",
+            "consolidation": "Using the world problem, students should be able to apply the special triangles to determine the exact side lengths.",
+            "extension": "Homework handout",
+            "materials": "Student notes, PPT, homework handout, entrance ticket",
+            "strategies/activities": "Demonstration, Collaborative Learning"
+        }
+    ],
+    [
+        {
+            "course_code": "MHF4U",
+            "overall": [],
+            "specific": [],
+            "unit_name": "Trigonometry",
+            "lesson_topic": "Review Trig Functions",
+            "learning_goal": "Review students knowledge of trig functions.",
+            "success_criteria": [
+                "- I can recall how to use sine, cosine, and tangent ratios",
+                "- I can recall how to find their reciprocals",
+                "- I can recall the special angles and triangles.",
+                "- I can determine the trig ratio given a point on the cartesian plane"
+            ],
+            "introduction": "Determine the unknown angle given the trig ratio.",
+            "development": "Introduce the trig ratios and how they can be found given a point P. They must know the reciprocal trig ratios. Must be clear on the sign convention of the angles \u00b1 is counterclockwise. Remind them of CAST\n\nGive them a diagram of the special triangles and get them to wrote the special angles and their correct ratios. Using the special ratios to evaluate different trig expressions.\n\nGiven a point P (-3, -5). Have them determine all the trig ratios. Given sinx=-5/13, have them find tanx.",
+            "consolidation": "Give out exit ticket (AFL) \u2013 questions to be answered on paper",
+            "extension": "",
+            "materials": "Student notes, PPT,",
+            "strategies/activities": [
+                "Conferencing",
+                "Demonstration",
+                "Small Group Discussion",
+                "Workbook / Work Sheets",
+                "Homework",
+                "Collaborative Learning"
+            ]
+        }
+    ],
+    [
+        {
+            "course_code": "MHF4U",
+            "overall": [
+                "B1. demonstrate an understanding of the meaning and application of radian measure;"
+            ],
+            "specific": [
+                "B1.1 recognize the radian as an alternative unit to the degree for angle measurement, define the radian measure of an angle as the length of the arc that subtends this angle at the centre of a unit circle, and develop and apply the relationship between radian and degree measure",
+                "B1.2 represent radian measure in terms of [pi] (e.g., [pi]/3 radians, 2[pi] radians) and as a rational number"
+            ],
+            "unit_name": "Trigonometry",
+            "lesson_topic": "Radians",
+            "learning_goal": "How to convert degrees to radians and find the arc length",
+            "success_criteria": "- I can convert an angle in degrees to radians\n- I determine the location of an angle given the angle in radians\n- I use the arc length formula to solve problems",
+            "introduction": "Have them calculate the circumference of a circle and use this to develop the relationship between radians and degrees.",
+            "development": "Define the key words using diagrams. Work to develop the formula to calculate the arc length of a section. From that we can determine how many radians are in a circle.\n\nUsing the unit conversion, have them convert 6 different angles from degrees to radians and radians to degrees.\n\nUsing the arc length of a circle formula have them determine arc length given central angle and radius, angle in degrees and radius, and opposite angle and radius.\n\nOptional Try two application questions. The angular speed of a ferris wheel and distance of travel. And given the arc length and radius find the central angle.",
+            "consolidation": "Give out exit ticket (AFL) \u2013 questions to be answered on paper",
+            "extension": "Homework handout",
+            "materials": "Student notes, homework handout, PPT",
+            "strategies/activities": [
+                "Demonstration",
+                "Experiments",
+                "Small Group Discussion",
+                "Collaborative Learning"
+            ]
+        }
+    ],
+    [
+        {
+            "course_code": "MHF4U",
+            "overall": [
+                "B1. demonstrate an understanding of the meaning and application of radian measure;",
+                "B2. make connections between trigonometric ratios and the graphical and algebraic representations of the corresponding trigonometric functions and between trigonometric functions and their reciprocals, and use these connections to solve problems;"
+            ],
+            "specific": [
+                "B2.1 sketch the graphs of f(x) = sin x and f(x) = cos x for angle measures expressed in radians, and determine and describe some key properties in terms of radians",
+                "B2.2 make connections between the tangent ratio and the tangent function by using technology to graph the relationship between angles in radians and their tangent ratios and defining this relationship as the function f(x) = tan x, and describe key properties of the tangent function",
+                "B2.3 graph, using the primary trigonometric functions, the reciprocal trigonometric functions for angle measures expressed in radians, determine and describe key properties of the reciprocal functions, and recognize notations used to represent the reciprocal functions as 2.6 represent a sinusoidal function with an equation, given its graph or its properties, with angles expressed in radians"
+            ],
+            "unit_name": "Trigonometry",
+            "lesson_topic": "Properties of Trig Functions",
+            "learning_goal": "We are learning... The difference characteristics of sine, cosine, and tangent with their reciprocals.",
+            "success_criteria": [
+                "Knowledge - I can graph different the primary and secondary trigonometric functions",
+                "Application - I can determine an equation for a sine or cosine equation given its graph behaviour",
+                "Communication - I can define amplitude, period and periodic function"
+            ],
+            "introduction": "Review the key terms amplitude and period from grade 11. They need to be able to identify these values given a graph.",
+            "development": "Part 1: Graphing Primary and Secondary graphs. Part 2: Determine equation given graph",
+            "consolidation": "Complete the application question. Asking them to determine an equation for the given situation. They need to identify amplitude and period from the given graph.",
+            "extension": "- Homework handout",
+            "materials": "Student notes, PPT, homework, Mid-Chapter Test",
+            "strategies/activities": [
+                "Small Group Discussion",
+                "Work/Book / Work Sheets",
+                "Collaborative Learning",
+                "Entrance Tickets",
+                "Exit Tickets"
+            ]
+        }
+    ],
+    [
+        {
+            "course_code": "MHF4U",
+            "overall": [
+                "B2. make connections between trigonometric ratios and the graphical and algebraic representations of the corresponding trigonometric functions and between trigonometric functions and their reciprocals, and use these connections to solve problems;"
+            ],
+            "specific": [
+                "B2.4 determine the amplitude, period, and phase shift of sinusoidal functions whose equations are given in the form f(x) = a sin[k(x \u2013 d)] + c or f(x) = a cos[k(x \u2013 d)] + c, with angles expressed in radians",
+                "B2.5 sketch graphs of y = a sin[k(x \u2013 d)] + c and y = a cos[k(x \u2013 d)] + c by applying transformations to the graphs of f(x) = sin x and f(x) = cos x, with angles expressed in radians, and state the period, amplitude, and phase shift of the transformed functions",
+                "2.6 represent a sinusoidal function with an equation, given its graph or its properties, with angles expressed in radians"
+            ],
+            "unit_name": "Trigonometry",
+            "lesson_topic": "Apply Transformations",
+            "learning_goal": "We are learning how to learn how describe and graph sine and cosine functions by applying transformations.",
+            "success_criteria": [
+                "Knowledge - I can recall how to apply transformations to a parent function - I can determine the period of the trig function",
+                "Thinking - I can use transformations with sine and cosine to sketch one cycle of the graph - I can use the period to sketch more cycles of the trig function"
+            ],
+            "introduction": "Give two example of a function transformed and have them determine the amplitude and period of each. Review how to describe a transformed function and review how to calculate new points based on transformations",
+            "development": "Keywords: phase shift After taking up starter. Present the general form of a transformed function for sin and cos. Define key characteristics for a, k, d, c Give an example of a transformed function and have them describe the transformations. Demonstrate how to sketch the function. Start with sketching the base function, then sketch the stretch/compress transformation, and then the horizontal/vertical shift. They could also apply coordinate mapping to select points. Need to explain that the function needs to cover the required domain from the given question. Points not calculate by coordinate mapping can be determined by add/subtracting the period from the known points",
+            "consolidation": "Give them an example to try. Have them show their answer when finished (observation and conversation opportunity). Select students who are having difficulty, and work through the problem with them individually.",
+            "extension": "Complete homework handout",
+            "materials": "Student notes, PPT, homework handout",
+            "strategies/activities": "Demonstration"
+        }
+    ],
+    [
+        {
+            "course_code": "MHF4U",
+            "overall": [
+                "B3. solve problems involving trigonometric equations and prove trigonometric identities."
+            ],
+            "specific": [
+                "B3.2 explore the algebraic development of the compound angle formulas (e.g., verify the formulas in numerical examples, using technology; follow a demonstration of the algebraic development), and use these formulas to determine exact values of trigonometric ratios",
+                "B3.3 recognize that trigonometric identities are equations that are true for every value in the domain, prove trigonometric identities through the application of reasoning skills, using a variety of relationships"
+            ],
+            "unit_name": "Trigonometry",
+            "lesson_topic": "Trig Identities",
+            "learning_goal": "How to develop the compound angle and double angle formula and use them to evaluate trig expressions",
+            "success_criteria": [
+                "Thinking",
+                "- I can develop the compound angle and double angle trig identities",
+                "- I can use the identities to simplify other trig expressions",
+                "- I can use the identities to simplify other trig expressions",
+                "- I can prove other trigonometric identities",
+                "- I can use the compound/double identities to solve trig expressions for the exact answer"
+            ],
+            "introduction": "Option 1: Give investigation handout. Students are to follow the directions to develop the compound angle and double angle formula. Can take up as class when finished. Option 2: Present students with the proof of the compound angle. See if they can attempt it on their own. Prove the other two compound identities using the even/odd identities",
+            "development": "After proving the compound angles identities, we can use them to evaluate different non-special angles. Students will need to write this non-special angle as the sum or difference of special angles then use their knowledge of trigonometric ratios to evaluate the exact answer. No calculators are allowed. Give students two questions to try on their own. Observe students as they complete the work check in with students who are having difficulty. Converse with students who are struggling and attempt to lead them toward a correct solution. We can use the compound identity with the Pythagorean identity to determine the double angle identities. Have them attempt to prove on their own. Need to use double angle identity to evaluate trig expressions. Give students two questions to try on their own. Observe students as they complete the work check in with students who are having difficulty. Converse with students who are struggling and attempt to lead them toward a correct solution. Try two application type questions. Provide them with non-special trig ratios for sine or cosine in order to evaluate compound and double angles.",
+            "consolidation": "Review the different formulas. Need to review how to identify which formula is for a question",
+            "extension": "Completes the homework handout",
+            "materials": "PPT, student notes, homework handout",
+            "strategies/activities": [
+                "Demonstration",
+                "Collaborative Learning",
+                "Homework"
+            ]
+        }
+    ],
+    [
+        {
+            "course_code": "MHF4U",
+            "overall": [
+                "B3. solve problems involving trigonometric equations and prove trigonometric identities."
+            ],
+            "specific": [
+                "B3.2 explore the algebraic development of the compound angle formulas (e.g., verify the formulas in numerical examples, using technology; follow a demonstration of the algebraic development), and use these formulas to determine exact values of trigonometric ratios",
+                "B3.3 recognize that trigonometric identities are equations that are true for every value in the domain, prove trigonometric identities through the application of reasoning skills, using a variety of relationships"
+            ],
+            "unit_name": "Trigonometry",
+            "lesson_topic": "Trig Identities",
+            "learning_goal": "We are learning... How to develop the compound angle and double angle formula and use them to evaluate trig expressions",
+            "success_criteria": "- I can develop the compound angle and double angle trig identities\n- I can use the identities to simplify other trig expressions\n- I can use the identities to prove other trig identities\n- I can use the compound/double identities to solve trig expressions for the exact answer",
+            "introduction": "Option 1: Give investigation handout. Students are to follow the directions to develop the compound angle and double angle formula. Can take up as class when finished.\nOption 2: Present students with the proof of the compound angle. See if they can attempt it on their own. Prove the other two compound identities using the even/odd identities",
+            "development": "Keywords: identity\nAfter proving the compound angles identities, we can use them to evaluate different non-special angles. Students will need to write this non-special angle as the sum or difference of special angles then use their knowledge of trigonometric ratios to evaluate the exact answer. No calculators are allowed.\nGive students two questions to try on their own. Observe students as they complete the work check in with students who are having difficulty. Converse with students who are struggling and attempt to lead them toward a correct solution.\n\nWe can use the compound identity with the Pythagorean identity to determine the double angle identities. Have them attempt to prove on their own. Need to use double angle identity to evaluate trig expressions.\nGive students two questions to try on their own. Observe students as they complete the work check in with students who are having difficulty. Converse with students who are struggling and attempt to lead them toward a correct solution.\n\nTry two application type questions. Provide them with non-special trig ratios for sine or cosine in order to evaluate compound and double angles.",
+            "consolidation": "Review the different formulas. Need to review how to identify which formula is for a question",
+            "extension": "Completes the homework handout",
+            "materials": "PPT, student notes, homework handout",
+            "strategies/activities": "Demonstration"
+        }
+    ],
+    [
+        {
+            "course_code": "MHF4U",
+            "overall": [
+                "B3. solve problems involving trigonometric equations and prove trigonometric identities"
+            ],
+            "specific": [
+                "B3.4 solve linear and quadratic trigonometric equations, with and without graphing technology, for the domain of real values from 0 to 2pi], and solve related problems"
+            ],
+            "unit_name": "Trigonometry",
+            "lesson_topic": "Solving Quadratic Trigonometric Equations",
+            "learning_goal": "How to solve learn to solve quadratic trigonometric equations with and without identities",
+            "success_criteria": "Thinking\nI can recall how to solve polynomial equations\nI can factor quadratic trig equations and then solve\nI can use trigonometric identities to simplify a trigonometric equation then solve",
+            "introduction": "Review solving linear equation based on any problems from previous exit ticket\nReview solving quadratic equation",
+            "development": "Part 1 \u2013 Solving Quadratic Equations without Identities\nStart with some easy examples where the quadratic equation is already factored. Need to show processes is the same as solving quadratic polynomials. Each factor needs to be set to 0 and solve the two linear equations.\nProvide students a question for them to work on individually. Call upon some students to show their solution (Conversation)\n\nPart 2 \u2013 Solving Quadratic Equations with Identities\nStart with solving with an equation that requires a double angle identity to create a simple quadratic equation. Demonstrate the use of different trig identities in simplifying equations including compound angle and reciprocals",
+            "consolidation": "Provide students a question for them to work on individually. Call upon some students to show their solution (Conversation)",
+            "extension": "Completes the homework handout",
+            "materials": "PPT, student notes, homework handout",
+            "strategies/activities": [
+                "Demonstration",
+                "Experiments",
+                "Small Group Discussion",
+                "Video / Film",
+                "Homework",
+                "Collaborative Learning",
+                "Exit Tickets"
+            ]
+        }
+    ],
+    [
+        {
+            "course_code": "MHF4U",
+            "overall": [
+                "B3. solve problems involving trigonometric equations and prove trigonometric identities."
+            ],
+            "specific": [
+                "B3.2 explore the algebraic development of the compound angle formulas (e.g., verify the formulas in numerical examples, using technology; follow a demonstration of the algebraic development), and use the formulas to determine exact values of trigonometric ratios",
+                "B3.3 recognize that trigonometric identities are equations that are true for every value in the domain, prove trigonometric identities through the application of reasoning skills, using a variety of relationships"
+            ],
+            "unit_name": "Trigonometry",
+            "lesson_topic": "Applications",
+            "learning_goal": "How to solve apply trig properties to real-world problems and solve equations",
+            "success_criteria": "Application\nI can determine the equation of a function from its graph\nI can apply my knowledge of trig functions to solve real world applications",
+            "introduction": "Give them the finding equations from graphs handout. See if they can work through it on their own. If struggling go through it on the board.",
+            "development": "Part 1: Develop and equation for a given situation\nFor a variety of situations to make and equation and graph we need max, min, period, and starting value. From this we can create a graph and equation.\n\nHave them try example 2 and 3 on their own\n\nPart 2: solve application equations\nThey will need to apply knowledge of solving linear/double angle equations. Solving for the independent variable to satisfy a given situation.",
+            "consolidation": "Review the different formulas. Need to review how to identify which formula is for a question",
+            "extension": "Completes the homework handout",
+            "materials": "PPT, student notes, homework handout",
+            "strategies/activities": [
+                "Demonstration",
+                "Experiments",
+                "Small Group Discussion",
+                "Video / Film",
+                "Collaborative Learning"
+            ]
+        }
+    ]
+]

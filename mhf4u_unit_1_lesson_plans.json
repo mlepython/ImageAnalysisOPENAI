@@ -1,0 +1,435 @@
+[
+    [
+        {
+            "course_code": "MHF4U",
+            "overall": [
+                "C1. identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions"
+            ],
+            "specific": [
+                "C1.1 recognize a polynomial expression recognize the equation of a polynomial function, give reasons why it is a function, and identify linear and quadratic functions as examples of polynomial functions",
+                "C1.2 compare, through investigation using graphing technology, the numeric, graphical, and algebraic representations of polynomial",
+                "C1.3 describe key features of the graphs of polynomial functions",
+                "C1.4 distinguish polynomial functions from sinusoidal and exponential functions"
+            ],
+            "unit_name": "Polynomial Characteristics",
+            "lesson_topic": "Lesson 1 \u2013 Power Functions",
+            "learning_goal": "To understand how to determine the characteristics of a simple polynomials from their graph and equation",
+            "success_criteria": [
+                "Knowledge - I can determine the degree and leading coefficient of a polynomial.",
+                "Communication - I can describe the end behavior of a polynomial.",
+                "Inquiry - I can identify the end behavior of a polynomial given a graph or its function."
+            ],
+            "introduction": "Intro concept of general polynomial expression with some keywords labeling keywords: coefficient, degree, leading coefficient, constant term, domain, range, end behaviour",
+            "development": "Naming a polynomial based on degree (SC 2)\nGive variety of different function, which are polynomial? Identify coefficient, leading coefficients, degree, (SC 1)\nIdentify if function is point symmetry or line symmetry (even or odd exponent) and end behavior (which quadrant does the function exist based on exponent and sign of coefficient.",
+            "consolidation": "Exit Ticket \u2013 questions relating to SC. Identify power function. What are the polynomials? Describe key features for both odd and even power functions (domain, range, symmetry, end behavior),",
+            "extension": "Homework - handout",
+            "materials": "Textbook, projector, exit ticket, student notes.",
+            "strategies/activities": "Demonstration"
+        }
+    ],
+    [
+        {
+            "course_code": "MHF4U",
+            "overall": [
+                "C1. identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions"
+            ],
+            "specific": [
+                "C1.2 compare, through investigation using graphing technology, the numeric, graphical, and algebraic representations of polynomial functions",
+                "C1.3 describe key features of the graphs of polynomial functions",
+                "C1.4 distinguish polynomial functions from sinusoidal and exponential functions"
+            ],
+            "unit_name": "Polynomial Characteristics",
+            "lesson_topic": "Lesson 2 \u2013 Characteristics of Graphs",
+            "learning_goal": "To understand how to determine the characteristics of polynomial with multiple terms",
+            "success_criteria": [
+                "Knowledge - I can recall how to determine the end behavior of a polynomial given a graph or its function\n- I can identify the x-intercepts and turning points given a graph",
+                "Communication - I can describe the number of turning points and number of X intercepts from the degree of the function.",
+                "Application - I can sketch a graph of a polynomial given its description of end behavior and turning points."
+            ],
+            "introduction": "Review the concept of finding the end behavior of a power function. For the review question, given a graph, need to determine the end behavior in right at a possible power function.",
+            "development": "Introduced new key term turning point. Student should be able to understand that a turning point is where the graph changes direction. These points are referred to as local maximum or minimum.\nPolynomial investigation: Using the desmos link...",
+            "consolidation": "Schoology practice quiz",
+            "extension": "Homework - handout",
+            "materials": "Textbook, projector, exit ticket, student notes.",
+            "strategies/activities": [
+                "Practice and Drill",
+                "Independent Study",
+                "Exit Tickets",
+                "Entrance Tickets"
+            ]
+        }
+    ],
+    [
+        {
+            "course_code": "MHF4U",
+            "overall": [
+                "C1. identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions"
+            ],
+            "specific": [
+                "C1.2 compare, through investigation using graphing technology, the numeric, graphical, and algebraic representations of polynomial",
+                "C1.3 describe key features of the graphs of polynomial functions",
+                "C1.4 distinguish polynomial functions from sinusoidal and exponential functions"
+            ],
+            "unit_name": "Polynomial Characteristics",
+            "lesson_topic": "Lesson 3 \u2013 Even and Odd Functions",
+            "learning_goal": "To understand the different types of symmetry applied to functions given a graph and function.",
+            "success_criteria": [
+                "I can identify the type of symmetry given a graph of a polynomial",
+                "I can explain the difference between an even and odd function.",
+                "Inquiry",
+                "I can determine if an equation is even or odd algebraically"
+            ],
+            "introduction": "Using Desmos, have students investigate symmetry.",
+            "development": "Intro concept of general polynomial expression with some keywords labeling. Keywords: even function, odd function, line symmetry, point symmetry\n\nDefine terms even function and line symmetry and, odd function with point symmetry with example.\n\nExample 1 Identify symmetry from graphs. Must give reason.\nExample 2 Prove algebraically if functions are even or odd.\n\nClarify the difference between even function and even degree function and odd function vs. odd degree function. Even/Odd function is a test for symmetry only. It applies to other function types not just polynomials.",
+            "consolidation": "Exit Ticket \u2013 provide an example graph and function that is even, odd, and neither.",
+            "extension": "Homework - handout\nOptional practice on Kahoot",
+            "materials": "Textbook, projector, exit ticket, student notes.",
+            "strategies/activities": [
+                "Demonstration",
+                "Practice and Drill"
+            ]
+        }
+    ],
+    [
+        {
+            "course_code": "MHF4U",
+            "overall": [
+                "C1. identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions"
+            ],
+            "specific": [
+                "C1.3 describe key features of the graphs of polynomial functions",
+                "C1.5 make connections between a polynomial function given in factored form and the x-intercepts of its graph, and sketch the graph of a polynomial function given in factored form using its key features"
+            ],
+            "unit_name": "Polynomial Characteristics",
+            "lesson_topic": "Lesson 4 \u2013 Graphing Polynomials",
+            "learning_goal": "To understand How to determine the characteristics of a polynomial in factored form and sketch a graph of its shape",
+            "success_criteria": "- Knowledge\n  I can determine the end behavior of a polynomial in factored form\n- Communication\n  I can describe the effect zero order has on an X intercept.\n- Application\n  I can identify the zero order on an X intercept and sketch a graph with correct shape.",
+            "introduction": "Review how to determine leading coefficient, degree, and end behaviour given polynomials in factored form.",
+            "development": "Development (Hands on)\nIntro concept of general polynomial expression with some keywords labeling\nKeywords: x/y intercepts, zero order, roots/zeros\nReview how to find roots of factored polynomial.\nGiven a polynomial with different zero orders, have students think about how the zero order or degree on the factor is affecting the shape of the graph at it zero. They should identify that if it is an exponent of 2 of the graph does not cross the X axis, But if it's an exponent of 3, then it has a cubic shape as it passes through.\nSummarize findings on the effect of order number has on the shape of the graph near each X intercept. And even order bounces off the X axis when an odd order passes through or has a cubic shape.\nFor example, 1, they need to practice identifying the X intercept in's order number based on the shape of the graph.\nFor part 3, they need to analyze the graph in factored form. Given graphs and factored form, they need to identify the degree, leading coefficient and behavior. X intercepts with the order and y intercept. The first thing they always need to do is find the degree in digging coefficients 'cause this will help us find the end behavior. For the end, behavior tells us what quadrants we need to start and finish drawing our graphs. The X intercepts and zero order tells us to shape at the zeros.\nProvide the graph of a polynomial with multiple X intercepts and ask them to write out a possible equation based on its end behavior and shape that X intercepts.",
+            "consolidation": "Consolidation: Reflect and Connect\nExit Ticket \u2013 Given equation in factored form, have the students sketched the graph? And state the number of turning points.",
+            "extension": "Homework - handout",
+            "materials": "Textbook, projector, exit ticket, student notes.",
+            "strategies/activities": "Practice and Drill\nIndependent Study\nExit Tickets\nEntrance Tickets"
+        }
+    ],
+    [
+        {
+            "course_code": "MHF4U",
+            "overall": [
+                "C1. identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions"
+            ],
+            "specific": [
+                "C1.3 describe key features of the graphs of polynomial functions",
+                "C1.5 make connections between a polynomial function given in factored form and the x-intercepts of its graph, and sketch the graph of a polynomial function given in factored form using its key features"
+            ],
+            "unit_name": "Polynomial Characteristics",
+            "lesson_topic": "Lesson 5 \u2013 Family of Polynomials",
+            "learning_goal": "To understand the concept of a polynomial family and how to determine its equation given a description and graph.",
+            "success_criteria": [
+                "Knowledge",
+                "- I can write an equation for a family member of a polynomial communication",
+                "- I can describe the definition of a family of polynomials and provide an example",
+                "Inquiry",
+                "- I can determine an equation of a polynomial given a written description or it's graph."
+            ],
+            "introduction": "Have students complete cards sort activity based on the previous lessons. Students will have to match the graph of a polynomial to that of its equation description and zeros. This might take 20 minutes to complete.\n\nReview common mistakes that students make when sketching graphs of polynomial.\n\nHave students complete mid chapter tests. the test should take no more than 60 minutes",
+            "development": "Given a polynomial in factored form with an unknown leading coefficient K. Use the animation to investigate the effect that K has on the graph. Students should identify what characteristics are staying the same and what characteristics are changing. Students should recognize that the X intercepts are not changing. But the Y intercepts is. They should also recognize that the end behavior is changing. Have students speculate. As to what the definition of a family of polynomials is, based on the investigation.\n\nA family of functions is a set of functions that have the same characteristics. Polynomial functions with the same X intercepts are said to belong to the same family.\n\nFor example, one have a simple quadratic function asking students to determine the equation of the family of functions, then write two members of the family By providing different values for K. The last part requires them to calculate the value of K for the family that passes through a given point.\n\nFor examples two and three, will be given a description of a cubic function with order numbers. Will need to determine the family equation and then determine the family member that passed through a given point. Then provide a graph of this situation.\n\nObservation: Have students try this question on their own.",
+            "consolidation": "From part three they will be given a graph and options and will need to determine the equation. They will need to identify the accent two steps in the correct order number, then use the given point to determine its equation.",
+            "extension": "Homework - handout",
+            "materials": "Textbook, projector, exit ticket, student notes. Card sort activity",
+            "strategies/activities": [
+                "Debate",
+                "Field Trip",
+                "Oral Presentation",
+                "Survey / Interviews",
+                "Conferencing",
+                "Demonstration",
+                "Experiments",
+                "Directed Reading-Thinking Activities",
+                "Practice and Drill",
+                "Independent Study",
+                "Learning Log / Journal",
+                "Workbook / Work Sheets",
+                "Note Taking",
+                "Portfolio",
+                "Creative Piece",
+                "Handout",
+                "Homework",
+                "Collaborative Learning",
+                "Peer Practice",
+                "Think / Pair / Share",
+                "Mathematical Problem Solving",
+                "Library / Research Process",
+                "Brainstorming",
+                "Case Study",
+                "Concept Mapping",
+                "Entrance Tickets",
+                "Exit Tickets",
+                "Self-Assessment"
+            ]
+        }
+    ],
+    [
+        {
+            "course_code": "MHF4U",
+            "overall": [
+                "C1. identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions"
+            ],
+            "specific": [
+                "C1.6 determine, through investigation using technology, the roles of the parameters a, k, d, and c in functions of the form y = af(k(x - d)) + c, and describe these roles in terms of transformations on the graphs of f(x) = x^3 and f(x) = x^4 (i.e., vertical and horizontal translations; reflections in the axes; vertical and horizontal stretches and compressions to and from the x-and y-axes)"
+            ],
+            "unit_name": "Polynomial Characteristics",
+            "lesson_topic": "Lesson 6 \u2013 Function Transformations",
+            "learning_goal": "To understand the different types of transformations that can be applied to a power function to change its shape",
+            "success_criteria": [
+                "Knowledge - I can recall the effect different parameters have on the shape of the power function.",
+                "Communication - I can describe the transformations that were applied to a given function.",
+                "Inquiry - I can write a transformed function given a description and parent function.",
+                "Application - I can determine the transformed points and sketch a graph of a transform function."
+            ],
+            "introduction": "Have students complete desmos activity on polynomial transformations. For this activity, students will have practice transforming different graphs using the parameters, and they will be able to practice describing transformations",
+            "development": "For part 1, students will have practice describing transformations. Use the following link to help illustrate the parameters https://www.desmos.com/calculator/2ai7dgd1xyl Using the results from Desmos activities, students will describe the transformations in the vertical direction. Will need to explain how a parameter and c parameter affect the vertical direction. The horizontal direction is affected by the k parameter and d parameter. Students might have difficulty with the d parameter. Observation/Conversation: Have students attempt the last question, getting him to describe the transformations. Circulate the room and have students explain their results. Provide students with written descriptions of transformations with the parent function. Students will need to identify the equation of the transformed function. Part 2, Students will need to use the transformations to sketch a graph of the new transform function. Should introduce coordinate mapping as a method to transform parent function to new function. For example 2/3 have them describe the transformation and then use coordinate mapping to transform the parent function. Observation/Conversation: Have them try the last question on their own. Check in with students as they work, asking them to explain their solution.",
+            "consolidation": "For part 1, there is a practice quiz on Schoology. Exit Ticket \u2013 Have them sketch a graph of the transform function.",
+            "extension": "Need to provide the communication questions to students so they can prepare for the communication assignment. The next lesson. Homework - handout",
+            "materials": "Textbook, projector, exit ticket, student notes. Card sort activity",
+            "strategies/activities": "Debate, Field Trip, Oral Presentation, Survey / Interviews, Conferencing, Demonstration, Experiments, Directed Reading-Thinking Activities, Large Group Discussion, Small Group Discussion, Video / Film, Questioning (oral / written), Practice and Drill, Independent Study, Learning Log / Journal, Workbook / Work Sheets, Note Taking, Portfolio, Creative Piece, Handout, Homework, Collaborative Learning, Peer Practice, Think / Pair / Share, Mathematical Problem Solving, Library / Research Process, Brainstorming, Case Study, Concept Mapping, Entrance Tickets, Exit Tickets, Visual/Graphic Organizers, Issue-Based Analysis, Computer-Assisted Instruction, Media Presentation/PowerPoint"
+        }
+    ],
+    [
+        {
+            "course_code": "MHF4U",
+            "overall": [
+                "C3. solve problems involving polynomial equations graphically and algebraically."
+            ],
+            "specific": [
+                "C3.1 make connections, through investigation using technology (e.g., computer algebra systems), between the polynomial function f(x), the divisor x \u2013 a, the remainder from the division f(x)/(x \u2013 a), and f(a) to verify the remainder theorem and the factor theorem"
+            ],
+            "unit_name": "Polynomial Characteristics",
+            "lesson_topic": "Lesson 1 \u2013 Polynomial Long Division",
+            "learning_goal": "To understand the different types of transformations that can be applied to a power function to change its shape",
+            "success_criteria": [
+                "Knowledge \u2013 I can recall the effect different parameters have on the shape of the power function.",
+                "Communication \u2013 I can describe the transformations that were applied to a given function.",
+                "Inquiry \u2013 I can write a transformed function given a description and parent function.",
+                "Application \u2013 I can determine the transformed points and sketch a graph of a transform function."
+            ],
+            "introduction": "Have students complete dismus activity on polynomial transformations. https://student.desmos.com/activitybuilder/student-greeting/62fb809bc72000611197387 For this activity, students will have practice transforming different graphs using the parameters, and they will be able to practice describing transformations",
+            "development": "Keywords: Horizontal and vertical translation, Horizontal and vertical stretch compression, Reflection at X and Y axis. For part 1, students will have practice describing transformations. y = a(f(k(x \u2013 d))) + c Use the following link to help illustrate the parameters https://www.desmos.com/calculator/tia7gukxyl Using the results from Desmos activities, students will describe the transformations in the vertical direction. Will need to explain how a parameter and c parameter affect the vertical direction. The horizontal direction is affected by the k parameter and d parameter. Students might have difficulty with the d parameter. Observation/Conversation: Have students attempt the last question, getting him to describe the transformations. Circulate the room and have students explain their results. Provide students with written descriptions of transformations with the parent function. Students will need to identify the equation of the transformed function. Part 2, Students will need to use the transformations to sketch a graph of the new transform function. Should introduce coordinate mapping as a method to transform parent function to new function. For example 2/3 have them describe the transformation and then use coordinate mapping to transform the parent function. Observation/Conversation: Have them try the last question on their own. Check in with students as they work, asking them to explain their solution.",
+            "consolidation": "For part 1, there is a practice quiz on Schoology. Exit Ticket \u2013 Have them sketch a graph of the transform function.",
+            "extension": "Need to provide the communication questions to students so they can prepare for the communication assignment. The next lesson. Homework - handout",
+            "materials": "Textbook, projector, exit ticket, student notes. Card sort activity",
+            "strategies/activities": "Demonstration, Practice and Drill, Independent Study"
+        }
+    ],
+    [
+        {
+            "course_code": "MHF4U",
+            "overall": [
+                "C3. solve problems involving polynomial equations graphically and algebraically."
+            ],
+            "specific": [
+                "C3.1 make connections, through investigation using technology (e.g., computer algebra systems), between the polynomial function f(x), the divisor x \u2013 a, the remainder from the division f(x)/(x \u2013 a), and f(a) to verify the remainder theorem and the factor theorem"
+            ],
+            "unit_name": "Polynomial Equations",
+            "lesson_topic": "Lesson 2 \u2013 Remainder and Factor Theorem",
+            "learning_goal": "To understand how to divide a polynomial by a binomial.",
+            "success_criteria": [
+                "Knowledge - I can recall how to determine the remainder using polynomial long division.",
+                "I can use the remainder theorem to find the remainder without doing long division",
+                "Communication - I can identify if a binomial is a factor of a polynomial by using the factor theorem.",
+                "Inquiry - I can use the factor theorem and remainder theorem to solve problems."
+            ],
+            "introduction": "Introduced the remainder through.\nHave students performed the long division of a polynomial by two different binomials, Then compare this results to the substitution of the binomial into the polynomial. Students Should identify that the remainder is the same value as when he substituted binomial into the polynomial.",
+            "development": "Remainder theorem.\nDefine the remainder theorem is when a polynomial function is divided by a binomial, The remainder is the result when the binomial is substituted into the polynomial.\n\nDemonstrate using example 1 and 2 on how we can find the Reminder. For the next problem, have the students attempted on their own.\n\nInquiry: For the next two examples, students will need to determine the unknown coefficients given the binomial and a known remainder.\n\nFor example #4. Similar type of problem, except they need to find two unknown coefficients. We will need to use the remainder theorem to determine two different equations and then use substitution or elimination's to find the unknown coefficients.\n\nFactor Theorem\nDefine the factor theorem as a special case of the remainder theorem. A binomial is a factor if the remainder is equal to 0. This means that binomial divides evenly into the polynomial. Students should also make the connection that this binomial is also represents the X intercept.\n\nFor example #5, Need to test which binomials are going to be factors or not. Just need to substitute in binomial into the polynomial to see what the remainder will be.\n\nHave students attempt question #6. It is a very similar question to that of #4, and they should do it by themselves.",
+            "consolidation": "Exit Ticket \u2013 questions relating to SC (AFL)",
+            "extension": "Homework - handout",
+            "materials": "Textbook, projector, exit ticket, student notes.",
+            "strategies/activities": [
+                "Debate",
+                "Field Trip",
+                "Oral Presentation",
+                "Survey / Interviews",
+                "Conferencing",
+                "Demonstration",
+                "Directed Reading-Thinking Activities",
+                "Large Group Discussion",
+                "Small Group Discussion",
+                "Video / Film",
+                "Questioning (oral / written)",
+                "Practice and Drill",
+                "Independent Study",
+                "Learning Log / Journal",
+                "Workbook / Work Sheets",
+                "Note Taking",
+                "Portfolio",
+                "Creative Piece",
+                "Handout",
+                "Homework",
+                "Collaborative Learning",
+                "Peer Practice",
+                "Think / Pair / Share",
+                "Mathematical Problem Solving",
+                "Library / Research Process",
+                "Brainstorming",
+                "Case Study",
+                "Concept Mapping",
+                "Entrance Tickets",
+                "Exit Tickets",
+                "Graphing",
+                "Visual/Graphic Organizers",
+                "Issue-Based Analysis",
+                "Computer-Assisted Instruction",
+                "Media Presentation/PowerPoint"
+            ]
+        }
+    ],
+    [
+        {
+            "course_code": "MHF4U",
+            "overall": [
+                "C3. solve problems involving polynomial equations graphically and algebraically."
+            ],
+            "specific": [
+                "C3.2 factor polynomial expressions in one variable, of degree no higher than four, by selecting and applying strategies (i.e., common factoring, difference of squares, trinomial factoring, factoring by grouping, remainder theorem, factor theorem)"
+            ],
+            "unit_name": "Polynomial Equations",
+            "lesson_topic": "Lesson 3 \u2013 Factoring Polynomials",
+            "learning_goal": "To understand the different strategies one can, use to factor a polynomial",
+            "success_criteria": [
+                "Knowledge\n- I can use the factor theorem to identify a factor of a polynomial.\n- I can use the rational zero theorem to identify possible factors of a polynomial.\nInquiry\n- I can use the factor theorem and long division to determine the factored form of a polynomial."
+            ],
+            "introduction": "Review how to factor quadratic functions.\nReview the remainder theorem and polynomial long division.",
+            "development": "Part 1: Factoring polynomials with leading coefficient 1.\nIntroduce the integral zero. If x-b is a factor of the polynomial with leading coefficient 1, Then he must be a factor of the constant term for the polynomial.\nFor example #2, will need to identify the constant term, Then using the integral 0 theorem, Find all possible factors of the constant term. Will need to use a guess approach to find a possible factor. When a factor is found, we can use long division to determine the quotient. Then we can factor the quotient to get our polynomial and fully factored form.\nFor example #3, He is a degree four problem, but the process is the same. Need to find factors of the constant term. Using a guest approach to find a factor and then use long division to find the quotient. The quotient will be a cubic function that will need to be factored. The factoring process is the same. We can guess another factor and then perform the long division and then factor the quotients.\nFor the next question, have the students try it on their own. Circulate the classroom and check in with students to see how they are doing.\nPart 2: Determine a factored form of a polynomial when the leading coefficient is not 1 is not. One will need to use the rational 0 theorem. There will be a factor of ax-b in the polynomial, b is a factor of the constant term, and a is a factor of the leading coefficient. Need to find factors of b/a\nThe process we're factoring a polynomial when the leading coefficient is not one. It is very similar to part one. We will need to find the possible factors of the constant term and possible factors of the leading coefficient. Some students might find this part little difficult, but work through slowly with them. When all possible factors are found, we can use a guess and check approach to find a factor, then use long division To find the quotient.\nHave students attempt the next two problems on their own. Circulate the classroom and checking the students to see how they are doing.\nPart 3: Other factoring strategies\nAnother strategy to factor is factor by grouping. This strategy involves grouping the first two terms and last terms together and then looking for a common binomial. This method is a lot faster than using long division, but doesn't always work.\nHave students try the last three problems on their own. The very last problem. They should observe that grouping will not work.",
+            "consolidation": "Consolidation: Reflect and Connect\n\nExit Ticket \u2013 questions relating to SC (AFL)",
+            "extension": "Homework - handout",
+            "materials": "Textbook, projector, exit ticket, student notes.",
+            "strategies/activities": [
+                "Debate",
+                "Field Trip",
+                "Oral Presentation",
+                "Survey / Interviews",
+                "Conferencing",
+                "Demonstration",
+                "Experiments",
+                "Directed Reading-Thinking Activities",
+                "Small Group Discussion",
+                "Large Group Discussion",
+                "Video / Film",
+                "Questioning (oral / written)",
+                "Practice and Drill",
+                "Independent Study",
+                "Learning Log / Journal",
+                "Workbook / Work Sheets",
+                "Note Taking",
+                "Portfolio",
+                "Creative Piece",
+                "Handout",
+                "Homework",
+                "Collaborative Learning",
+                "Peer Practice",
+                "Think / Pair / Share",
+                "Mathematical Problem Solving",
+                "Library / Research Process",
+                "Brainstorming",
+                "Case Study",
+                "Concept Mapping",
+                "Exit Tickets",
+                "Entrance Tickets",
+                "Self-Assessment",
+                "Graphing",
+                "Visual/Graphic Organizers",
+                "Issue-Based Analysis",
+                "Computer-Assisted Instruction",
+                "Media Presentation/PowerPoint"
+            ]
+        }
+    ],
+    [
+        {
+            "course_code": "MHF4U",
+            "overall": [
+                "C3. solve problems involving polynomial equations graphically and algebraically."
+            ],
+            "specific": [
+                "C3.2 factor polynomial expressions in one variable, of degree no higher than four, by selecting and applying strategies (i.e., common factoring, difference of squares, trinomial factoring, factoring by grouping, remainder theorem, factor theorem)"
+            ],
+            "unit_name": "Polynomial Equations",
+            "lesson_topic": "Lesson 4 \u2013 Solving Polynomial Equations",
+            "learning_goal": "To understand how to use factoring to solve polynomial equations and solve problems.",
+            "success_criteria": [
+                "Knowledge\n - I can recall how to factor a polynomial\n - I can use factoring to find the zeros of an equation.\nApplication\n - I can use factoring to solve polynomial applications"
+            ],
+            "introduction": "Review how to factor quadratic functions.\nReview the remainder theorem and polynomial long division.",
+            "development": "Part 1: Solving polynomial equations\nFor example, number 1 students will need to solve an already factored polynomial equation. Will need to set each factor equal to zero and then solve.\n...\nPart 2 applications\nVery common application is to find the dimensions of a tank required to store a certain volume. First we need to determine a function for volume that depends on the variable x. For all application problems, there will be some sort of domain restriction on the variable. When dealing with volume, the height, length, and width must all be positive quantities. So we will need to check for the domain restrictions on each of these expressions for the three dimensions. This will make it easier for us to factor when we need to start Guessing possible factors.",
+            "consolidation": "Exit Ticket \u2013 questions relating to SC (AFL)",
+            "extension": "Homework - handout",
+            "materials": "Textbook, projector, exit ticket, student notes.",
+            "strategies/activities": "Practice and Drill\nIndependent Study\nEntrance Tickets\nExit Tickets"
+        }
+    ],
+    [
+        {
+            "course_code": "MHF4U",
+            "overall": [
+                "C3. solve problems involving polynomial equations graphically and algebraically.",
+                "C4. demonstrate an understanding of solving polynomial inequalities."
+            ],
+            "specific": [
+                "C4.1 explain, for polynomial and simple rational functions, the difference between the solution to an equation in one variable and the solution to an inequality in one variable, and demonstrate that given solutions satisfy an inequality",
+                "C4.2 determine solutions to polynomial inequalities in one variable",
+                "C4.3 solve linear inequalities and factorable polynomial inequalities in one variable) in a variety of ways"
+            ],
+            "unit_name": "Polynomial Equations",
+            "lesson_topic": "Lesson 5 \u2013 Solving Polynomial Inequality",
+            "learning_goal": "To understand how to use factoring and graphs to determine the solution to an inequality",
+            "success_criteria": [
+                "Knowledge",
+                "- I can recall how to solve linear inequality problems.",
+                "Communication",
+                "- I can correctly write a set of numbers in interval notation.",
+                "Inquiry",
+                "- I can use a table or a graph to solve an inequality problem",
+                "Application",
+                "- I can create a polynomial inequality given a set of solutions"
+            ],
+            "introduction": "Review how to solve linear inequalities. This is something that they should have done in grade 9. Illustrate the solution on a number line. Give them a quadratic inequality and see if they can solve it. Most students will attempt to solve it as an equation. And will only get one solution. To solve it, they will need to consider all cases, Make a graph, Or make a table.",
+            "development": "Have students define the difference between inequality and equality. And inequality will give you many solutions on its given interval. But an equality problem only gives you a few solutions. Give a graph of a polynomial function of degree through your higher and asked the students to determine on what intervals the graph will be less than zero and greater than zero. Students should easily be able to identify positive and negative intervals. For the next question, they will need to factor the polynomials first before they can solve the inequality. There are two methods to solve the inequality, using the graph or using a table of intervals. The table of intervals requires them to use the X intercepts to separate the table into different intervals. Then use a test point in each interval to check to see if the function will be positive or negative. Have them attempt the last two questions on the room. They should try using a graph and a table to verify their answers.",
+            "consolidation": "Exit Ticket \u2013 questions relating to SC (AFL)",
+            "extension": "Homework - handout",
+            "materials": "Textbook, projector, exit ticket, student notes.",
+            "strategies/activities": [
+                "Debate",
+                "Field Trip",
+                "Oral Presentation",
+                "Survey / Interviews",
+                "Conferencing",
+                "Demonstration",
+                "Experiments",
+                "Directed Reading-Thinking Activities",
+                "Large Group Discussion",
+                "Small Group Discussion",
+                "Video / Film",
+                "Questioning ( oral / written)",
+                "Practice and Drill",
+                "Independent Study",
+                "Learning Log / Journal",
+                "Workbook / Work Sheets",
+                "Note Taking",
+                "Portfolio",
+                "Creative Piece",
+                "Handout",
+                "Homework",
+                "Collaborative Learning",
+                "Peer Practice",
+                "Think / Pair / Share",
+                "Mathematical Problem Solving",
+                "Library / Research Process",
+                "Brainstorming",
+                "Case Study",
+                "Concept Mapping",
+                "Entrance Tickets",
+                "Exit Tickets"
+            ]
+        }
+    ]
+]

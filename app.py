@@ -4,11 +4,37 @@ from pdf2image import convert_from_path
 from pathlib import Path
 from dotenv import load_dotenv
 import os
+import json
 
 load_dotenv()
 
+def save_to_json(data, filename='result.json'):
+    with open(filename, 'w') as file:
+        json.dump(data, file, indent=4)
+
+def append_to_json_file(file_path, new_data):
+    if isinstance(new_data, str):
+        new_data = json.loads(new_data)
+    # Read the existing data from the file
+    try:
+        with open(file_path, 'r') as file:
+            data = json.load(file)
+    except FileNotFoundError:
+        # If the file does not exist, start with an empty list
+        data = []
+
+    # Append the new data to the existing data
+    if isinstance(data, list):
+        data.append(new_data)
+    elif isinstance(data, dict):
+        data.update(new_data)
+    else:
+        raise ValueError("Unsupported data format in JSON file")
+    
+    save_to_json(data, filename=file_path)
+
 class OpenAI_Image_Data_Extraction(OpenAI):
-    def __init__(self, model_name="gpt-4-vision-preview", max_tokens=1000):
+    def __init__(self, model_name="gpt-4-vision-preview", max_tokens=2000):
         super().__init__()
         self.file_path = ""
         self.api_key = os.getenv('OPENAI_API_KEY')
@@ -90,14 +116,40 @@ class OpenAI_Image_Data_Extraction(OpenAI):
         messages = self.system_message()
         messages.append(self.message_with_images(images=image_paths))
         result = self.run_openai(messages=messages)
-        print(result)
         return result
+    
+    def process_multiple_files(self, directory, json_filename):
+        pdf_files = [f for f in os.listdir(directory) if f.lower().endswith('.pdf')]
+        print("PDF files in directory:")
+        for file in pdf_files:
+            print(file)
+            self.file_path = directory + f'/{file}'
+            result = self.process_file()
+            data = result.split('``json')[-1].split("```")[0]
+            append_to_json_file(file_path=json_filename, new_data=data)
+    
 
+    
 if __name__ == "__main__":
     script = OpenAI_Image_Data_Extraction()
-    script.file_path = r"OpenAI-Blog.pdf"
-    # script.first_page = 2
-    # script.last_page = 4
-    script.system_prompt = """Summarize the content for a markdown document
-    """
-    script.process_file()
+    directory = r"G:\My Drive\Royal Crown Mike\MHF4U\Unit 6 - Review-Combined-Function-ROC\Unit 5 - Combine Functions and Rates of Change\Lesson Plan\Lesson Plans - pdf"
+    
+    script.system_prompt = """Your task will be to extract lesson content from the provided images by the user.
+                Extract the following content from the image as it appears in the table. Put result into a JSON array.
+                course_code: <text>
+                overall: <overall expectation list>
+                specific: <specific expectation list>
+                unit_name: <text>
+                lesson_topic: <text>
+                learning_goal: <text>
+                success_criteria: <text>
+                introduction: <text>
+                development: <text>
+                consolidation: <text>
+                extension: <text>
+                materials: <text>
+                strategies/activities: <only highlighted text>
+                IF the content cannot be extracted from image return an empty JSON array.
+                """
+    # script.process_file()
+    script.process_multiple_files(directory, json_filename='mhf4u_unit_5_lesson_plan.json')

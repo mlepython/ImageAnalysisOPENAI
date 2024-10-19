@@ -1,0 +1,143 @@
+[
+    [
+        {
+            "course_code": "MHF4U",
+            "overall": [
+                "D1. demonstrate an understanding of average and instantaneous rate of change, and determine, numerically and graphically, and interpret the average rate of change of a function over a given interval and the instantaneous rate of change of a function at a point.",
+                "D2. determine functions that result from the addition, subtraction, multiplication, and division of two functions and from the composition of two functions, describe properties of the resulting functions, and solve related problems.",
+                "D3. compare the characteristics of functions, and solve problems by modelling and reasoning with functions, including problems with solutions that are not accessible by standard algebraic techniques."
+            ],
+            "specific": [
+                "D2.1 determine, through investigation using graphing technology, key features (e.g., domain, range, maximum/minimum points, number of zeros) of the graphs of functions created by adding, subtracting, multiplying, or dividing functions (e.g., f(x) = 2(x)\u2212sin(x), g(x) = 2(x), h(x) = sin(x cos x)]), and describe actions that affect these properties.",
+                "D2.2 recognize real-world applications for combinations of functions (e.g., the motion of a damper and bumper can be represented by a function that is the product of a trigonometric function and an exponential function; the frequencies of tones associated with the numbers on a telephone involve the addition of two trigonometric functions), and solve related problems graphically.",
+                "D2.3 determine, through investigation, and explain some properties (i.e., odd, even, or neither; increasing/decreasing behaviour) of functions formed by adding, subtracting, multiplying, and dividing general functions (e.g., f(x) + g(x), f(x)g(x)]."
+            ],
+            "unit_name": "Combined Functions and Rates of Change",
+            "lesson_topic": "Adding and Subtracting Functions",
+            "learning_goal": "Students will work to understand how to combine different functions of different types",
+            "success_criteria": [
+                "I can recall how graph polynomial, trigonometric, and logarithmic functions",
+                "I can sketch a graph by using the superposition principle",
+                "I can determine the domain of a combined function from a graph or function"
+            ],
+            "introduction": "Given them a simple division problem to help remind them how to use long division. Have them write their answer in two different ways",
+            "development": "Part 1 \u2013 Determine domain\nStudents need to understand how to determine the domain of a combined function. They will need to recognize that the domain of two or more combined functions is the intersection of the domain. (domain must be common to all functions). Have students determine domain of example 1 graphs then try to find the common domain between. Have them try to complete part b of example on their own.\n\nPart 2 \u2013 Superposition Principle\nCover superposition principle with example. How to sketch a combined graph using two different graphs. It is a good idea to have students create the habit of forming a table of values for example 2 and 3 This will help with graphing of more complex functions.\n\nPart 3 \u2013 Combining functions algebraically\nNeed to combine functions of all types algebraically and determine domains.",
+            "consolidation": "Reflect and Connect\nAchievement Check \u2013 questions relating to SC (AFL)",
+            "extension": "Page 26-29 #4,7, 8, 12",
+            "materials": "Textbook, projector, exit ticket, notes for students, homework,",
+            "strategies/activities": [
+                "Large Group Discussion",
+                "Small Group Discussion",
+                "Mathematical Problem Solving",
+                "Brainstorming"
+            ]
+        }
+    ],
+    [
+        {
+            "course_code": "MHF4U",
+            "overall": [
+                "D1. demonstrate an understanding of average and instantaneous rate of change, and determine, numerically and graphically, and interpret the average rate of change of a function over a given interval and the instantaneous rate of change of a function at a given point",
+                "D2. determine functions that result from the addition, subtraction, multiplication, and division of two functions and from the composition of two functions, describe properties of the resulting functions, and solve related problems",
+                "D3. compare the characteristics of functions, and solve problems by modelling and reasoning with functions, including problems with solutions that are not accessible by standard algebraic techniques."
+            ],
+            "specific": [
+                "D2.1 determine, through investigation using graphing technology, key features (e.g., domain, range, maximum/minimum points, number of zeros) of the graphs of functions created by adding, subtracting, multiplying, or dividing functions (e.g., f(x) = 2(x) \u2013 sin(x), g(x) = x2 + 2(x), h(x) = sin x/cos x), and describe factors that affect these properties",
+                "D2.2 recognize real-world applications of combinations of functions (e.g., the motion of a damped pendulum can be represented by a function that is the product of a trigonometric function and an exponential function; the frequencies of tones associated with the numbers on a telephone involve the addition of two trigonometric functions), and solve related problems graphically",
+                "D2.3 determine, through investigation, and explain some properties (i.e., odd, even, or neither; increasing/decreasing behaviours) of functions formed by adding, subtracting, multiplying, and dividing general functions (e.g., f(x) + g(x), f(g(x))|x\u03b5[\u2212k,k])"
+            ],
+            "unit_name": "Combined Functions and Rates of Change",
+            "lesson_topic": "Multiply and Divide Functions",
+            "learning_goal": "Students will work to understand how to combine different functions of different types",
+            "success_criteria": [
+                "I can sketch a graph of a combined function by either multiplying or dividing the y-values of a point on a graph or table",
+                "I can determine the domain of a combined function by using a graph or function",
+                "I can determine if the product or quotient will yield an even or odd function"
+            ],
+            "introduction": "Take up homework question on discrete function combination. Review concept of even and odd function and try examples on adding/subtracting different functions",
+            "development": "Keywords: superposition, combination, composition,\n\nPart 1 \u2013 Multiply and Divide Polynomials\nDemonstrate that multiplying and dividing polynomials is a review of unit 1 and 2 using simple examples.\n\nPart 2 \u2013 Even/Odd Combinations\nNeed to understand that different combinations of functions will have even/odd properties. Show examples with simple polynomial and trigonometric functions (ex 2 and 3). From the sketch graph is the function even or odd.\nProve that the product and quotient of functions can create even/odd algebraically.\n\nPart 3 \u2013 Combined function characteristics\nNeed to understand how to determine key characteristics (x/y intercepts, VA, holes, etc...) when combining different functions. Ex 4\nAlso need to evaluate combined functions for different values of x.",
+            "consolidation": "Consolidation: Reflect and Connect\nAchievement Check \u2013 questions relating to SC (AFL)",
+            "extension": "Page 26-29 #4,7, 8, 12",
+            "materials": "Textbook, projector, exit ticket, notes for students, homework",
+            "strategies/activities": [
+                "Directed Reading-Thinking Activities",
+                "Large Group Discussion",
+                "Handout",
+                "Homework",
+                "Mathematical Problem Solving"
+            ]
+        }
+    ],
+    [
+        {
+            "course_code": "MHF4U",
+            "overall": [
+                "D1. demonstrate an understanding of average and instantaneous rate of change, and determine, numerically and graphically, and interpret the average rate of change of a function over a given interval and the instantaneous rate of change of a function at a point",
+                "D2. determine functions that result from the addition, subtraction, multiplication, and division of two functions and from the composition of two functions, describe some properties of the resulting functions, and solve related problems",
+                "D3. compare the characteristics of functions, and solve problems by modelling and reasoning with functions, including problems with solutions that are not accessible by standard algebraic techniques"
+            ],
+            "specific": [
+                "D2.4 determine the composition of two functions [i.e., f(g(x))] numerically (i.e., by using a table of values) and graphically, with technology, for functions represented in a variety of ways (e.g., function machines, graphs, equations), and interpret the composition of two functions in real-world applications",
+                "D2.5 determine algebraically the composition of two functions [i.e., f(g(x))], verify that f(g(x)) is not always equal to g(f(x)) (e.g., by determining f(g(x)) and g(f(x)), given f(x) = x + 1 and g(x) = 2x], and state the domain, i.e., by defining f(g(x)) for those x-values for which f(g(x)) is defined and for which it is included in the domain of f(x)) and the range of the composition of two functions Sample problem: Determine f(g(x)) and g(f(x)) given f(x) = cos x and g(x) = 2x + 1, state the domain and range of f(g(x)) and g(f(x)), compare f(g(x)) with g(f(x)) algebraically, and verify numerically and graphically with technology",
+                "D2.6 solve problems involving the composition of two functions, including problems arising from real-world applications",
+                "D2.7 demonstrate, by giving examples for functions represented in a variety of ways (e.g., function machines, graphs, equations), the property that the composition of a function and its inverse function maps a number onto itself (i.e., f(f^(-1)) x = x) and apply this knowledge to demonstrate that the inverse function reverses the process of the original function and that it undoes what the function does"
+            ],
+            "unit_name": "Unit #5 \u2013 Combined Functions",
+            "lesson_topic": "Composite Functions",
+            "learning_goal": "Students will: work to understand how to combine different functions of different types",
+            "success_criteria": [
+                "I can evaluate a function for a given input that has been composed with another function",
+                "I can recall how to determine the inverse of a function",
+                "I can determine the domain and range of a composed function"
+            ],
+            "introduction": "Introduction / Motivational Hook / Engagement Take up homework question",
+            "development": "Development ( Hands on)\nKeywords: superposition, combination, composition,\nPart 1 \u2013 Composite function\nIntroduce composite function with simple example. Emphasize that order of composition will be important f(g(x)) is not the same as g(f(x)). Can be demonstrated by graphing and algebraically. Need to combine functions of different types to determine domain and evaluate.\nPart 2 \u2013 Inverse and Composition\nNeed to review how to find the inverse of a function. Demonstrate what happens when you compose a function with its inverse. How to combine discrete functions with its inverse.\nPart 3 \u2013 Solving composite equations\nNeed to understand how to solve composite equations with different function types.",
+            "consolidation": "Consolidation: Reflect and Connect\nAchievement Check \u2013 questions relating to SC (AFL)",
+            "extension": "Extension Activities / Next Steps / Homework\nPage 26-29 #4,7, 8, 12",
+            "materials": "Textbook, projector, exit ticket, notes for students, homework,",
+            "strategies/activities": [
+                "Large Group Discussion",
+                "Homework",
+                "Mathematical Problem Solving"
+            ]
+        }
+    ],
+    [
+        {
+            "course_code": "MHF4U",
+            "overall": [
+                "D1. demonstrate an understanding of average and instantaneous rate of change, and determine, numerically and graphically, and interpret the average rate of change of a function over a given interval and the instantaneous rate of change of a function at a point",
+                "D2. determine functions that result from the addition, subtraction, multiplication, and division of two functions and from the composition of two functions, describe some properties of the resulting functions, and solve related problems",
+                "D3. compare the characteristics of functions, and solve problems by modelling and reasoning with functions, including problems with solutions that are not accessible by standard algebraic techniques."
+            ],
+            "specific": [
+                "D1.1 gather, interpret, and describe information about real-world applications of rates of change, and recognize different ways of representing rates of change (e.g., words, numerically, graphically, algebraically)",
+                "D1.2 recognize that the rate of change for a function is a comparison of changes in the dependent variable to changes in the independent variable, and distinguish situations in which the rate of change is zero, constant, or changing by examining applications, including those arising from real-world situations (e.g., rate of change of the area of a circle as the radius increases, inflation rates, the rising trend in graduation rates among Aboriginal youth, speed of a cruising aircraft, speed of a cyclist climbing a hill, infection rates)",
+                "D1.4 calculate and interpret average rates of change of functions (e.g., linear, quadratic, exponential, sinusoidal) given from real-world applications (e.g., in the natural, physical, and social sciences), and various representations of these functions (e.g., tables of values, graphs, equations)",
+                "D1.5 recognize examples of instantaneous rates of change arising from real-world situations, and make connections between instantaneous rates of change and average rates of change (e.g., an average rate of change can be used to approximate an instantaneous rate of change)"
+            ],
+            "unit_name": "Combined Functions and Rates of Change",
+            "lesson_topic": "Rates of Change",
+            "learning_goal": "Students will: work to understand what a rate of change is and how to calculate average rate of change and instantaneous rate of change",
+            "success_criteria": [
+                "a) I can recall how to calculate the slope of a line",
+                "b) I can recall the difference between a secant line and tangent line",
+                "c) I can use a secant line to determine the AARC and to approximate a tangent line of IRC",
+                "d) I can determine if the given point is a maximum or minimum using ARC"
+            ],
+            "introduction": "Review how to determine equation of a line through two points.",
+            "development": "Keywords: average/instantaneous rate of change, secant line, tangent line,\n\nPart 1 \u2013 terminology\nReview key words with examples for each.\n\nPart 2 \u2013 ARC\nGo over application examples on ARC. Need to emphasize the importance of providing units and the +/- of the ROC representing direction. Examples should include using equations or table of values to determine ROC.\n\nPart 3 \u2013 IRC\nNeed to understand the difference between ARC and IRC. Several methods need to be covered for IRC: drawing tangent line, choosing a surrounding interval, and use equation with small intervals.",
+            "consolidation": "Activity: Reflect and Connect\nAchievement Check \u2013 questions relating to SC (AFL)",
+            "extension": "Extension Activities / Next Steps / Homework\nPage 26-29 #4-7, 8, 12",
+            "materials": "Textbook, projector, exit ticket, notes for students, homework",
+            "strategies/activities": [
+                "Demonstration",
+                "Directed Reading-Thinking Activities",
+                "Large Group Discussion",
+                "Homework",
+                "Collaborative Learning",
+                "Mathematical Problem Solving"
+            ]
+        }
+    ]
+]

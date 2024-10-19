@@ -1,0 +1,172 @@
+[
+    [
+        {
+            "course_code": "MHF4U",
+            "overall": [
+                "demonstrate an understanding of the relationship between exponential expressions and logarithmic expressions, evaluate logarithms, and apply the laws of logarithms to simplify numeric expressions.",
+                "identify and describe some key features of the graphs of logarithmic functions, make connections among the numeric, graphical, and algebraic representations of logarithmic functions, and solve related problems graphically"
+            ],
+            "specific": [
+                "B1.1 recognize the logarithm of a number to a given base as the exponent to which the base must be raised to get the number, recognize the operation of finding the logarithm to be the inverse operation (i.e., the undoing or reversing) of exponentiation, and evaluate simple logarithmic expressions",
+                "B1.2 determine, with technology, the approximate logarithm of a number to any base, including base 10 (e.g., by reasoning that log3(29) is between 3 and 4 and using systematic trial to determine that log3(29) is approximately 3.07)",
+                "B1.3 make connections between related logarithmic and exponential equations (e.g., log5(125) = 3 can also be expressed as 5^3 (125), and solve simple exponential equations by rewriting them in logarithmic form (e.g., solving 3(x) = 10 by rewriting the equation as log3(10) = x)",
+                "B2.2 recognize the relationship between an exponential function and the corresponding logarithmic function to be that of a function and its inverse, deduce the graph of a logarithmic function is the reflection of the graph of the corresponding exponential function in the line y = x, and verify the deduction using technology"
+            ],
+            "unit_name": "Unit 4 - Logarithms",
+            "lesson_topic": "Introduction to Logarithms",
+            "learning_goal": "We are learning... to understand the connection between an exponential and logarithmic function",
+            "success_criteria": "Knowledge: - I can recall how to determine the inverse of a function - I can recall how to sketch a graph of an inverse function by switching the x and y values - I can write an exponential function in logarithmic function Thinking: - I can evaluate a simple log expression",
+            "introduction": "Need to review the exponent rules: Provide a list of the different exponent rules and have students try to remember how to simplify the exponents use example number one and two to simplify using the exponent rules. students will need to be reminded about the power of a power role when simplifying more complicated expressions Have students try to solve the next two examples on their own for Part 2 need to review how to solve exponential equations by changing the base. demonstrate using the first couple of examples on how to change the base. if the base number is the same on the left and right side of the equation then you can set the exponents equal Have students try the practice questioned by themselves",
+            "development": "Part one need to review the inverse of a function. need to remind students that the inverse function has all the same points as the original function but the X&Y have switched. we are solving the equation for the dependent variable. students should remember that the properties or characteristics will also switch. Part 2 need to introduce the reason for logarithms. solving exponential equations that can have the same base number but if we have this situation where we have an exponential and the base numbers cannot be changed and logarithms will be needed The logarithmic function is the inverse of the exponential function with the same base. use the table to craft both the exponential function and its inverse by switching the X&Y values. then fill in the table to show the key properties of both. Summarize the definition of the logarithmic function. The log function is for determining the value of an exponent Part 3 need to be able to write an equivalent exponential and log expression. students will need to be able to switch from exponential to logarithm or from a logarithm to an exponential. they will need to correctly identify the base number in the exponents. for the next set of practice questions they need to evaluate the log expression without calculator they will need to be able to switch into exponential form and then use change of base to find the exponent.",
+            "consolidation": "Reflect and Connect They can work on the practice quiz.",
+            "extension": "Homework handout",
+            "materials": "Student notes, PPT, Workbook / Work Sheets",
+            "strategies/activities": "Demonstration, Collaborative Learning, Small Group Discussion"
+        }
+    ],
+    [
+        {
+            "course_code": "MHF4U",
+            "overall": [
+                "B1. demonstrate an understanding of the relationship between exponential expressions and logarithmic expressions, evaluate logarithms, and apply the laws of logarithms to simplify numeric expressions.",
+                "B2. identify and describe some key features of the graphs of logarithmic functions, make connections among the numeric, graphical, and algebraic representations of logarithmic functions, and solve related problems graphically;"
+            ],
+            "specific": [
+                "B1.4 make connections between the laws of exponents and the laws of logarithms (e.g., use the statement 10^(a+b) = 10^a 10^b) to deduce that log(10 x) + log(10 y) = log[(10 x)(10 y)], verify the laws of logarithms with or without technology by evaluating expressions such as log(10)1000 - log(10)100 and then rewriting the answer as a logarithmic term to the same base), and use the laws of logarithms to simplify and evaluate numerical expressions",
+                "B3.1 recognize equivalent algebraic expressions involving logarithms and exponents, and simplify expressions of these types"
+            ],
+            "unit_name": "4 - Logarithms",
+            "lesson_topic": "Log Laws",
+            "learning_goal": "How to simplify more complex log expressions using the log laws",
+            "success_criteria": [
+                "- I can use the product, quotient, and power law to simplify an expression",
+                "- I can recall the names of the log laws and when to use them in a solution",
+                "- I can simplify log expressions using log laws"
+            ],
+            "introduction": "Need to review how to switch from an exponential to log form or vice versa. Have students try the first three questions by themselves. after observing the students need to take up the questions that they found difficult",
+            "development": "introduce four properties of logarithms that can be useful when simplifying more complicated expressions. Since logarithms are exponents the laws of exponents give corresponding laws of logarithms. There is the product law quotient law and power law. use example #1 to demonstrate the use of each of these three laws.\n\nFor example, #2 work with the class to solve the problems here. ask students which law they will need to use. they need to remember the names of the laws. the last question they will need to use the power law first before the product law. for example #3, have students try this by themselves where they need to simplify the expression.\n\nfor example #4 demonstrate using the first problem. they need to expand the logarithm by creating a sum or difference of other logarithms.\n\nIntroduce the change of base formula. some calculators can only evaluate the base 10, so the change of base formula is needed. will need to change the base number to a base 10 and then use calculator to evaluate.",
+            "consolidation": "Complete the last set of questions on their own. these are good thinking questions requiring them to use the laws of logarithms to solve problems. the last question will require them to simplify the log expression.",
+            "extension": "Homework handout",
+            "materials": "Student notes, homework handout, PPT",
+            "strategies/activities": "Demonstration"
+        }
+    ],
+    [
+        {
+            "course_code": "MHF4U",
+            "overall": [
+                "B3. solve exponential and simple logarithmic equations in one variable algebraically, including those in problems arising from real-world applications."
+            ],
+            "specific": [
+                "B3.1 recognize equivalent algebraic expressions involving logarithms and exponents, and simplify expressions of these types",
+                "B3.3 solve simple logarithmic equations in one variable algebraically [e.g., log(3) (5x + 6) = 2, log(10) (x + 1) = 1]"
+            ],
+            "unit_name": "Exponential Functions",
+            "lesson_topic": "Log Equations",
+            "learning_goal": "We are learning...\nHow to solve log equations using the log laws to simplify the expression first and check our answers",
+            "success_criteria": "- Knowledge\n  I can recall the product, quotient, and power laws\n- Inquiry\n  I can solve a log equation and check for extraneous solution\n- Communication\n  I can explain extraneous solution\n- Application\n  I can determine the point of intersection between two log functions",
+            "introduction": "Use the entrance tickets. provide two questions from lesson #2 that they need to solve. One question to simplify a log expression the other one to expand a log expression. After collecting the entrance ticket take up the questions as needed",
+            "development": "Use example #1 to demonstrate. We\u2019ll first need to identify the domain of the equation. we will need to compare the solution to the log equation to this domain to see if there are any extraneous solutions. there are two methods to solve one is to write in exponential form the other is to keep it in log form\nhave students solve practice 1 problems.\n\nuse example #2 to demonstrate extraneous solutions. The first two problems will show why it is important to check our final answer.\nhave students try Practice #2",
+            "consolidation": "demonstrate the application question as a point of intersection between two functions. students should recall that the point of intersection occurs when two lines are crossing, they share a common point. after setting the two functions equal it is just a log equation to be solved. use the solution to determine the point.\nHave the students try the last question by themselves.",
+            "extension": "Homework handout",
+            "materials": "Student notes, PPT, homework handout, entrance ticket",
+            "strategies/activities": [
+                "Demonstration",
+                "Small Group Discussion",
+                "Workbook / Work Sheets",
+                "Collaborative Learning"
+            ]
+        }
+    ],
+    [
+        {
+            "course_code": "MHF4U",
+            "overall": [
+                "B2. identify and describe some key features of the graphs of logarithmic functions, make connections among the numeric, graphical, and algebraic representations of logarithmic functions, and solve related problems graphically"
+            ],
+            "specific": [
+                "B2.1 determine, through investigation with technology (e.g., graphing calculator, spreadsheet) and without technology, key features (i.e., vertical and horizontal asymptotes, domain and range, intercepts, increasing/decreasing behaviour) of the graphs of logarithmic functions of the form f(x) = log_b(x), and make connections between the algebraic and graphical representations of these logarithmic functions",
+                "B2.3 determine, through investigation using technology, the roles of the parameters a and c in functions of the form y = log_10(x) \u2212 d + c and the roles of the parameters a and k in functions of the form y = log_10(kx), and describe these roles in terms of transformations on the graph of f(x) = log_10(x) (i.e., vertical and horizontal translations; reflections in the x-axis and y-axis; and horizontal stretches and compressions to and from the x-and y-axes)"
+            ],
+            "unit_name": "Unit 4 - Logarithms",
+            "lesson_topic": "Graphing Logarithms",
+            "learning_goal": "We are learning... How to apply transformations to log functions and graph them with the correct characteristics.",
+            "success_criteria": [
+                "Knowledge - I can apply transformation to two points",
+                "Application - I can determine the location of the vertical asymptote",
+                "Application - I can sketch a graph of a log function showing correct behaviour",
+                "Communication - I can recall the affect the different parameters a, k, d, and c have on the shape of a graph"
+            ],
+            "introduction": "Introduction / Motivational Hook / Engagement - Mid-chapter test (60 minutes) Ask students to solve for the x-intercepts given a variety of log functions. They should recall an x-intercept is when y=0, then need to solve the resulting log equation",
+            "development": "Development (Hands on) - Introduce the graphs of different log functions and a table of characteristics. They should identify that the characteristics are the same for different base numbers. Introduce the anchor points as the points to be use to transform. Should review transformation process using the parameters. Go through example 1 demonstrating the location of VA, x/y intercepts, and apply transformations, then graph. Have students try the next two example on their own. Part 2: determine an equation to match a graph Most students should be able to do this on their own. They need to look for the domain and check for matching x-intercepts.",
+            "consolidation": "Consolidation: Reflect and Connect - Start homework.",
+            "extension": "Extension Activities / Next Steps / Homework - Homework handout - practice quiz on schoology",
+            "materials": "Materials / Resources - Student notes, PPT, homework, Mid-Chapter Test",
+            "strategies/activities": [
+                "Demonstration",
+                "Collaborative Learning",
+                "Exit Tickets"
+            ]
+        }
+    ],
+    [
+        {
+            "course_code": "MHF4U",
+            "overall": [
+                "B3. solve exponential and simple logarithmic equations in one variable algebraically, including those in problems arising from real-world applications."
+            ],
+            "specific": [
+                "B3.2 solve exponential equations in one variable by determining a common base (e.g., solve 4(x) = 8(x+3) by expressing each side as a power of 2) and by using logarithms (e.g., solve 4(x) = 8(x+3) by taking the logarithm base 2 of both sides), recognizing that logarithms base 10 are commonly used (e.g., solving 3(x) = 7 by taking the logarithm base 10 of both sides)"
+            ],
+            "unit_name": "Unit 4 - Logarithms",
+            "lesson_topic": "Solving Exponential Equations",
+            "learning_goal": "We are learning... How to solve exponential equations with change of base and using logarithms to rewrite the equation with the log laws.",
+            "success_criteria": "Knowledge - I can recall the exponent laws - I can recall the different laws of logarithms Thinking - I can use the laws to simplify an exponential equation and solve - I can identify a hidden quadratic in an exponential equation and use factoring to solve",
+            "introduction": "Review as a class how to solve an exponential by changing the base.",
+            "development": "Introduce an exponential equation that cannot have its based changed to match both sides of equation. Have students speculate how to solve the equation. Some might suggest logarithms. Using the log of both sides, will need to use the log rules to completely simplify the expression first then use log laws to solve. This approach is sometimes faster. Have students solve the practice set on their own Part 2: Hidden quadratic Sometimes there is a hidden quadratic in the exponential. Will need to factor or use quadratic formula. Will need to check final answer for extraneous roots Have students solve the practice set on their own",
+            "consolidation": "Have students attempt the thinking question. They will need to make the connection of doing the reverse. Starting with the answer, need to find the equation.",
+            "extension": "Complete homework handout",
+            "materials": "Student notes, PPT, homework handout",
+            "strategies_activities": [
+                "Demonstration",
+                "Experiments",
+                "Small Group Discussion",
+                "Collaborative Learning"
+            ]
+        }
+    ],
+    [
+        {
+            "course_code": "MHF4U",
+            "overall": [
+                "B2. identify and describe some key features of the graphs of logarithmic functions, make connections among the numeric, graphical, and algebraic representations of logarithmic functions, and solve related problems graphically;",
+                "B3. solve exponential and simple logarithmic equations in one variable algebraically, including those in problems arising from real-world applications."
+            ],
+            "specific": [
+                "B2.4 pose problems based on real-world applications of exponential and logarithmic functions (e.g., exponential growth and decay, the Richter scale, the pH scale, the decibel scale), and solve these and other such problems by using a given graph or a graph generated with technology from a table of values or from its equation",
+                "B3.4 solve problems involving exponential and logarithmic equations algebraically, including problems arising from real-world applications"
+            ],
+            "unit_name": "Unit 4 - Logarithms",
+            "lesson_topic": "Application of Logs and Exp",
+            "learning_goal": "How to solve log and exponential equations from real-world situations",
+            "success_criteria": [
+                "I can solve appreciation/depreciation, and doubling/half-life problems",
+                "I can solve pH, sound levels, and Richter scale problems"
+            ],
+            "introduction": "Spend some time reviewing solving log/exponential equations either on whiteboards or individually.",
+            "development": "Introduce the different real-world application of logarithms. pH scale, decibel scale, and Richter scale. Ask students what they have in common (should identify base 10 for each) Solve example 1 to 3 demonstrating each situation. Have student attempt the practice questions on their own. Part 2. Review the formulas from grade 11 on compound interest, depreciation, doubling time, and half life. Solve examples 5 and 6, then have students try the remaining on their own.",
+            "consolidation": "Review the different formulas. Need to review how to identify which formula is for a question",
+            "extension": "Completes the homework handout",
+            "materials": "PPT, student notes, homework handout",
+            "strategies/activities": [
+                "Demonstration",
+                "Experiments",
+                "Small Group Discussion",
+                "Video / Film",
+                "Workbook / Work Sheets",
+                "Note Taking",
+                "Collaborative Learning"
+            ]
+        }
+    ]
+]
